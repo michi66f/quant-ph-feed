@@ -1,0 +1,1700 @@
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16244v1
+- Title: LiDMaS: Architecture-Level Modeling of Fault-Tolerant Magic-State Injection in GKP Photonic Qubits
+- Authors: Dennis Delali Kwesi Wayo
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16244v1  pdf=https://arxiv.org/pdf/2601.16244v1.pdf
+
+Abstract:
+Fault-tolerant quantum computation in photonic architectures relies on the efficient preparation of high-fidelity logical magic states under realistic constraints imposed by finite squeezing and photon loss. In this work, we study logical T-gate magic-state preparation in GKP-encoded photonic qubits using a repeat-until-success injection protocol combined with outer surface-code protection. We develop an architecture-level modeling framework based on a lightweight density-matrix simulator implemented with standard numerical linear algebra. Finite squeezing is mapped to effective logical dephasing, depolarizing noise is included at the logical level, and photon loss is treated as a heralded erasure process. This approach avoids explicit continuous-variable wavefunction simulation, hardware-specific photonic models, and quantum software frameworks, enabling transparent and computationally efficient exploration of architectural trade-offs. We perform systematic parameter sweeps over squeezing values from 8 to 16 dB, baseline loss probabilities between 0.01 and 0.03, and surface-code distances d = 1, 3, 5, and 7. Across this regime, we evaluate repeat-until-success probability, average injection overhead, and logical magic-state fidelity. We find that success probabilities exceed 0.94 across all studied parameters, with an average overhead close to unity. After outer-code protection, logical fidelities reach approximately 0.77 to 0.80 and show weak sensitivity to moderate photon loss but a strong dependence on squeezing. Phase-boundary analysis identifies minimum squeezing requirements needed to simultaneously achieve high success probability and logical fidelity. These results provide quantitative design guidance for scalable photonic fault-tolerant quantum architectures.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16257v1
+- Title: Quantum Cellular Automata on a Dual-Species Rydberg Processor
+- Authors: Ryan White, Vikram Ramesh, Alexander Impertro, Shraddha Anand, Francesco Cesa, Giuliano Giudici, Thomas Iadecola, Hannes Pichler, et al.
+- Categories: quant-ph (primary); quant-ph; cond-mat.quant-gas
+- Links: abs=https://arxiv.org/abs/2601.16257v1  pdf=https://arxiv.org/pdf/2601.16257v1.pdf
+
+Abstract:
+As quantum devices scale to larger and larger sizes, a significant challenge emerges in scaling their coherent controls accordingly. Quantum cellular automata (QCAs) constitute a promising framework that bypasses this control problem: universal dynamics can be achieved using only a static qubit array and global control operations. We realize QCAs on a dual-species Rydberg array of rubidium and cesium atoms, leveraging independent global control of each species to perform a myriad of quantum protocols. With simple pulse sequences, we explore many-body dynamics and generate a variety of entangled states, including GHZ states, 96.7(1.7)%-fidelity Bell states, 17-qubit cluster states, and high-connectivity graph states. The versatility and scalability of QCAs offers compelling routes for scaling quantum information systems with global controls, as well as new perspectives on quantum many-body dynamics.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16258v1
+- Title: Multi-invariants in stabilizer states
+- Authors: Sriram Akella, Abhijit Gadde, Jay Pandey
+- Categories: quant-ph (primary); quant-ph; cond-mat.str-el
+- Links: abs=https://arxiv.org/abs/2601.16258v1  pdf=https://arxiv.org/pdf/2601.16258v1.pdf
+
+Abstract:
+Multipartite entanglement is a natural generalization of bipartite entanglement, but is relatively poorly understood. In this paper, we develop tools to calculate a class of multipartite entanglement measures - known as multi-invariants - for stabilizer states. We give an efficient numerical algorithm that computes multi-invariants for stabilizer states. For tripartite stabilizer states, we also obtain an explicit formula for any multi-invariant using the GHZ-extraction theorem. We then present a counting argument that calculates any Coxeter multi-invariant of a q-partite stabilizer state. We conjecture a closed form expression for the same. We uncover hints of an interesting connection between multi-invariants, stabilizer states and topology. We show how our formulas are further simplified for a restricted class of stabilizer states that appear as ground states of interesting models like the toric code and the X-cube model.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16264v1
+- Title: Quantum algorithm for simulating non-adiabatic dynamics at metallic surfaces
+- Authors: Robert A. Lang, Paarth Jain, Juan Miguel Arrazola, Danial Motlagh
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16264v1  pdf=https://arxiv.org/pdf/2601.16264v1.pdf
+
+Abstract:
+Non-adiabatic dynamics at molecule-metal interfaces govern diverse and technologically important phenomena, from heterogeneous catalysis to dye-sensitized solar energy conversion and charge transport across molecular junctions. Realistic modeling of such dynamics necessitates taking into account various charge and energy transfer channels involving the coupling of nuclear motion with a very large number of electronic states, leading to prohibitive cost using classical computational methods. In this work we introduce a generalization of the Anderson-Newns Hamiltonian and develop a highly optimized quantum algorithm for simulating the non-adiabatic dynamics of realistic molecule-metal interfaces. Using the PennyLane software platform, we perform resource estimations of our algorithm, showing its remarkably low implementation cost for model systems representative of various scientifically and industrially relevant molecule-metal systems. Specifically, we find that time evolution for models including $100$ metal orbitals, $8$ molecular orbitals, and $20$ nuclear degrees of freedom, requires only $271$ qubits and $7.9 \times 10^7$ Toffoli gates for $1000$ Trotter steps, suggesting non-adiabatic molecule-metal dynamics as a fruitful application of first-generation fault-tolerant quantum computers.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16266v1
+- Title: Post-processing optimization and optimal bounds for non-adaptive shadow tomography
+- Authors: Andrea Caprotti, Joshua Morris, Borivoje Dakić
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16266v1  pdf=https://arxiv.org/pdf/2601.16266v1.pdf
+
+Abstract:
+Informationally overcomplete POVMs are known to outperform minimally complete measurements in many tomography and estimation tasks, and they also leave a purely classical freedom in shadow tomography: the same observable admits infinitely many unbiased linear reconstructions from identical measurement data. We formulate the choice of reconstruction coefficients as a convex minimax problem and give an algorithm with guaranteed convergence that returns the tightest state-independent variance bound achievable by post-processing for a fixed POVM and observable. Numerical examples show that the resulting estimators can dramatically reduce sampling complexity relative to standard (canonical) reconstructions, and can even improve the qualitative scaling with system size for structured noncommuting targets.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16269v1
+- Title: Engineering Near-Infrared Two-Level Systems in Confined Alkali Vapors
+- Authors: Gilad Orr, Golan Ben-Ari, Eliran Talker
+- Categories: quant-ph (primary); quant-ph; physics.app-ph; physics.atom-ph
+- Links: abs=https://arxiv.org/abs/2601.16269v1  pdf=https://arxiv.org/pdf/2601.16269v1.pdf
+
+Abstract:
+We combined experimental and theoretical investigations of an effective two-level atomic system operating in the near-infrared telecom wavelength regime, realized using hot rubidium vapor confined within a sub-micron-thick cell. In this strongly confined geometry, atomic coherence is profoundly influenced by wall-induced relaxation arising from frequent atom-surface collisions. By analyzing both absorption and fluorescence spectra, we demonstrate that the optical response is dominated by a closed cycling transition, which effectively isolates the atomic dynamics to a two-level configuration despite the presence of multiple hyperfine states. This confinement-induced selection suppresses optical pumping into uncoupled states and enables robust, controllable light-matter interaction at telecom wavelengths within a miniature atomic platform. Our results establish a practical route to realizing near-infrared atomic two-level systems in compact vapor-cell devices, opening new opportunities for integrated quantum photonic technologies, including on-chip quantum memories, telecom-band frequency references, and scalable quantum information processing.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16275v1
+- Title: Experimental observation of conformal field theory spectra
+- Authors: Xiangkai Sun, Yuan Le, Stephen Naus, Richard Bing-Shiun Tsai, Lewis R. B. Picard, Sara Murciano, Michael Knap, Jason Alicea, et al.
+- Categories: quant-ph (primary); quant-ph; cond-mat.quant-gas; physics.atom-ph
+- Links: abs=https://arxiv.org/abs/2601.16275v1  pdf=https://arxiv.org/pdf/2601.16275v1.pdf
+
+Abstract:
+Conformal field theories (CFTs) feature prominently in high-energy physics, statistical mechanics, and condensed matter. For example, CFTs govern emergent universal properties of systems tuned to quantum phase transitions, including their entanglement, correlations, and low-energy excitation spectra. Much of the rich structure predicted by CFTs nevertheless remains unobserved in experiment. Here we directly observe the energy excitation spectra of emergent CFTs at quantum phase transitions -- recovering universal energy ratios characteristic of the underlying field theories. Specifically, we develop and implement a modulation technique to resolve a Rydberg chain's finite-size spectra, variably tuned to quantum phase transitions described by either Ising or tricritical Ising CFTs. We also employ local control to distinguish parities of excitations under reflection and, in the tricritical Ising chain, to induce transitions between distinct CFT spectra associated with changing boundary conditions. By utilizing a variant of the modulation technique, we furthermore study the dynamical structure factor of the critical system, which is closely related to the correlation of an underlying Ising conformal field. Our work not only probes the emergence of CFT features in a quantum simulator, but also provides a technique for diagnosing a priori unknown universality classes in future experiments.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16317v1
+- Title: Exploring Noisy Quantum Thermodynamical Processes via the Depolarizing-Channel Approximation
+- Authors: Jian Li, Xiaoyang Wang, Marcus Huber, Nicolai Friis, Pharnam Bakhshinezhad
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16317v1  pdf=https://arxiv.org/pdf/2601.16317v1.pdf
+
+Abstract:
+Noise and errors are unavoidable in any realistic quantum process, including processes designed to reduce noise and errors in the first place. In particular, quantum thermodynamical protocols for cooling can be significantly affected, potentially altering both their performance and efficiency. Analytically characterizing the impact of such errors becomes increasingly challenging as the system size grows, particularly in deep quantum circuits where noise can accumulate in complex ways. To address this, we introduce a general framework for approximating the cumulative effect of gate-dependent noise using a global depolarizing channel. We specify the regime in which this approximation provides a reliable description of the noisy dynamics. Applying our framework to the thermodynamical two-sort algorithmic cooling (TSAC) protocol, we analytically derive its asymptotic cooling limit in the presence of noise. Using the cooling limit, the optimal cooling performance is achieved by a finite number of qubits--distinguished from the conventional noiseless TSAC protocol by an infinite number of qubits--and fundamental bounds on the achievable ground-state population are derived. This approach opens new avenues for exploring noisy quantum thermodynamical processes.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16343v1
+- Title: Unambiguous randomness from a quantum state
+- Authors: Fionnuala Curran
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16343v1  pdf=https://arxiv.org/pdf/2601.16343v1.pdf
+
+Abstract:
+Intrinsic randomness is generated when a quantum state is measured in any basis in which it is not diagonal. In an adversarial scenario, we quantify this randomness by the probability that a correlated eavesdropper could correctly guess the measurement outcomes. What if the eavesdropper is never wrong, but can sometimes return an inconclusive outcome? Inspired by analogous concepts in quantum state discrimination, we introduce the unambiguous randomness of a quantum state and measurement, and, relaxing the assumption of perfect accuracy, randomness with a fixed rate of inconclusive outcomes. We solve these problems for any state and projective measurement in dimension two, as well as for an isotropically noisy state measured in an unbiased basis of any dimension. In the latter case, we find that, given a fixed amount of total noise, an eavesdropper correlated only to the noisy state is always outperformed by an eavesdropper with joint correlations to both a noisy state and a noisy measurement. In fact, we identify a critical error parameter beyond which the joint eavesdropper achieves perfect guessing probability, ruling out any possibility of private randomness.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16369v1
+- Title: Reducing TLS loss in tantalum CPW resonators using titanium sacrificial layers
+- Authors: Zachary Degnan, Chun-Ching Chiu, Yi-Hsun Chen, David Sommers, Leonid Abdurakhimov, Lihuang Zhu, Arkady Fedorov, Peter Jacobson
+- Categories: quant-ph (primary); quant-ph; cond-mat.mtrl-sci; cond-mat.supr-con
+- Links: abs=https://arxiv.org/abs/2601.16369v1  pdf=https://arxiv.org/pdf/2601.16369v1.pdf
+
+Abstract:
+We demonstrate a substantial reduction in two-level system loss in tantalum coplanar waveguide resonators fabricated on high-resistivity silicon substrates through the use of an ultrathin titanium sacrificial layer. A 0.2nm titanium film, deposited atop pre-sputtered α-tantalum, acts as a solid-state oxygen getter that chemically modifies the native Ta oxide at the metal-air interface. After device fabrication, the titanium layer is removed using buffered oxide etchant, leaving behind a chemically reduced Ta oxide surface. Subsequent high-vacuum annealing further suppresses two-level system loss. Resonators treated with this process exhibit internal quality factors Qi exceeding an average of 1.5 million in the single-photon regime across ten devices, over three times higher than otherwise identical devices lacking the titanium layer. These results highlight the critical role of interfacial oxide chemistry in superconducting loss and reinforce atomic-scale surface engineering as an effective approach to improving coherence in tantalum-based quantum circuits. The method is compatible with existing fabrication workflows applicable to tantalum films, offering a practical route to further extending T1 lifetimes in superconducting qubits.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16396v1
+- Title: Subspace-Confined QAOA with Generalized Dicke States for Multi-Channel Allocation in 5G CBRS Networks
+- Authors: Gunsik Min, Youngjin Seo, Jun Heo
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16396v1  pdf=https://arxiv.org/pdf/2601.16396v1.pdf
+
+Abstract:
+Efficient spectrum sharing in the Citizens Broadband Radio Service (CBRS) band is essential for maximizing 5G network capacity, particularly when high-traffic base stations require simultaneous access to multiple channels. Standard formulations of the Quantum Approximate Optimization Algorithm (QAOA) impose such multi-channel constraints using penalty terms, so most of the explored Hilbert space corresponds to invalid assignments. We propose a subspace-confined QAOA tailored to CBRS multi-channel allocation, in which each node-wise channel register is initialized in a Generalized Dicke state and evolved under an intra-register XY mixer. This ansatz confines the dynamics to a tensor product of Johnson graphs that exactly encode per-node Hamming-weight constraints. For an 8-node CBRS interference graph with 24 qubits, the effective search space is reduced from the full Hilbert space of size $2^{24}$ to 2916 feasible configurations. Within this subspace, the algorithm converges rapidly to low-conflict assignments without large penalty coefficients. Simulations on instances with up to eight nodes show that the proposed ansatz achieves near-optimal conflict levels and consistently outperforms standard penalty-based QAOA and a greedy classical heuristic in terms of feasibility. Noise simulations with depolarizing channels further indicate that the constraint-preserving structure maintains a high feasibility ratio in NISQ-relevant error regimes.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16416v1
+- Title: Low-Loss, High-Coherence Airbridge Interconnects Fabricated by Single-Step Lithography
+- Authors: Jibang Fu, Bo Ren, Jiandong Ouyang, Cong Li, Kechengqi Zhu, Yonggang Che, Xiang Fu, Shichuan Xue, et al.
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16416v1  pdf=https://arxiv.org/pdf/2601.16416v1.pdf
+
+Abstract:
+Airbridges are essential for creating high-performance, low-parasitic interconnects in integrated circuits and quantum devices. Conventional multi-step fabrication methods hinder miniaturization and introduce process-related defects. We report a simplified process for fabricating nanoscale airbridges using only a single electron-beam lithography step. By optimizing a multilayer resist stack with a triple-exposure-dose scheme and a thermal reflow step, we achieve smooth, suspended metallic bridges with sub-200-nm features that exhibit robust mechanical stability. Fabricated within a gradiometric SQUID design for superconducting transmon qubits, these airbridges introduce no measurable additional loss in the relaxation time $T_1$, while enabling a 2.5-fold enhancement of the dephasing time $T_2^*$. This efficient method offers a practical route toward integrating high-performance three-dimensional interconnects in advanced quantum and nano-electronic devices.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16435v1
+- Title: Circulant quantum channels and its applications
+- Authors: Bing Xie, Lin Zhang
+- Categories: quant-ph (primary); quant-ph; math.FA; math.OA
+- Links: abs=https://arxiv.org/abs/2601.16435v1  pdf=https://arxiv.org/pdf/2601.16435v1.pdf
+
+Abstract:
+This note introduces a family of circulant quantum channels -- a subclass of the mixed-permutation channels -- and investigates its key structural and operational properties. We show that the image of the circulant quantum channel is precisely the set of circulant matrices. This characterization facilitates the analysis of arbitrary $n$-th order Bargmann invariants. Furthermore, we prove that the channel is entanglement-breaking, implying a substantially reduced resource cost for erasing quantum correlations compared to a general mixed-permutation channel. Applications of this channel are also discussed, including the derivation of tighter lower bounds for $\ell_p$-norm coherence and a characterization of its action in bipartite systems.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16454v1
+- Title: Gluing Randomness via Entanglement: Tight Bound from Second Rényi Entropy
+- Authors: Wonjun Lee, Hyukjoon Kwon, Gil Young Cho
+- Categories: quant-ph (primary); quant-ph; cond-mat.stat-mech; cond-mat.str-el
+- Links: abs=https://arxiv.org/abs/2601.16454v1  pdf=https://arxiv.org/pdf/2601.16454v1.pdf
+
+Abstract:
+The efficient generation of random quantum states is a long-standing challenge, motivated by their diverse applications in quantum information processing tasks. In this work, we identify entanglement as the key resource that enables local random unitaries to generate global random states by effectively gluing randomness across the system. Specifically, we demonstrate that approximate random states can be produced from an entangled state $|ψ\rangle$ through the application of local random unitaries. We show that the resulting ensemble forms an approximate state design with an error saturating as $Θ(e^{-\mathcal{N}_2(ψ)})$, where $\mathcal{N}_2(ψ)$ is the second Rényi entanglement entropy of $|ψ\rangle$. Furthermore, we prove that this tight bound also applies to the second Rényi entropy of coherence when the ensemble is constructed using coherence-free operations. These results imply that, when restricted to resource-free gates, the quality of the generated random states is determined entirely by the resource content of the initial state. Notably, we find that among all $α$-Rényi entropeis, the second Rényi entropy yields the tightest bounds. Consequently, these second Rényi entropies can be interpreted as the maximal capacities for generating randomness using resource-free operations. Finally, moving beyond approximate state designs, we utilize this entanglement-assisted gluing mechanism to present a novel method for generating pseudorandom states in multipartite systems from a locally entangled state via pseudorandom unitaries in each of parties.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16474v1
+- Title: Quantum phase estimation with optimal confidence interval using three control qubits
+- Authors: Kaur Kristjuhan, Dominic W. Berry
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16474v1  pdf=https://arxiv.org/pdf/2601.16474v1.pdf
+
+Abstract:
+Quantum phase estimation is an important routine in many quantum algorithms, particularly for estimating the ground state energy in quantum chemistry simulations. This estimation involves applying powers of a unitary to the ground state, controlled by an auxiliary state prepared on a control register. In many applications the goal is to provide a confidence interval for the phase estimate, and optimal performance is provided by a discrete prolate spheroidal sequence. We show how to prepare the corresponding state in a far more efficient way than prior work. We find that a matrix product state representation with a bond dimension of 4 is sufficient to give a highly accurate approximation for all dimensions tested, up to $2^{24}$. This matrix product state can be efficiently prepared using a sequence of simple three-qubit operations. When the dimension is a power of 2, the phase estimation can be performed with only three qubits for the control register, making it suitable for early-generation fault-tolerant quantum computers with a limited number of logical qubits.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16494v1
+- Title: Indefinite Causal Order from Failure-to-Glue: Contextual Semantics and Parametric Time
+- Authors: Partha Ghose
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16494v1  pdf=https://arxiv.org/pdf/2601.16494v1.pdf
+
+Abstract:
+Indefinite causal order (ICO) has been studied via higher-order quantum processes (e.g.\ the quantum switch), process matrices, and quantum-gravity proposals involving superposed causal structure, yet the meaning of ``indefiniteness'' and its relation to definite-order explanations often remain opaque.   Part~I develops a category-theoretic formulation of definite-order explainability as a gluing problem: each definite causal ordering (a partial order/DAG type) is treated as a context, and causal separability amounts to a consistent global section (possibly after convex mixing), whereas causal nonseparability is a failure-to-glue. We also introduce a compact seven-valued contextual classifier -- an intuitionistic elaboration -- that separates variation across contexts from genuine indeterminacy.   Part~II applies this framework to a quantum-gravity motivated setting where the fundamental time is a parametric ordering variable $τ$, distinct from geometric (spacetime) time. Adopting a stochastic-quantization perspective on spin-network dynamics (Hilbert space not assumed fundamental) and reading the Wheeler--DeWitt condition as an equilibrium/stationarity constraint, we interpret ICO as indeterminacy of the parametric order of coarse-grained relational interventions, even when the microscopic update process is globally ordered by $τ$. Together, the two parts provide a common language for comparing ICO criteria and for stating precisely what ``no hidden definite order'' means.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16517v1
+- Title: The optimal strategy of two-photon interferometric sensing in diverse noise environments
+- Authors: Teng-fei Yan, Zhuo-zhuo Wang, Qi-qi Li, Peng-long Wang, Bai-hong Li, Rui-Bo Jin
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16517v1  pdf=https://arxiv.org/pdf/2601.16517v1.pdf
+
+Abstract:
+Quantum sensing based on two-photon interferometry manifests quantum superiority beyond the classical precision limit. However, this superiority is usually diminished inevitably by the noise. Here, we analyze the sensitivity of two typical two-photon interferometries to the noise, that is, Hong-Ou-Mandel (HOM) and N00N state interferometry. It is found that HOM (N00N state) interference, which depends on the biphoton frequency difference (sum), is insensitive (sensitive) to the phase noise in both the manners of spectrally non-resolved and resolved detections in practice, suggesting their potential applications of sensing for different noise scenarios. Furthermore, spectrally resolved detection outperforms spectrally non-resolved one for the two interferometries, especially for the scope that exceeds the coherence time of biphotons. The findings provide an optimal strategy for the practical applications of two-photon interferometric sensing in diverse noise environments.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16537v1
+- Title: Drive-Through Quantum Gate: Non-Stop Entangling a Mobile Ion Qubit with a Stationary One
+- Authors: Ting Hsu, Wen-Han Png, Kuan-Ting Lin, Ming-Shien Chang, Guin-Dar Lin
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16537v1  pdf=https://arxiv.org/pdf/2601.16537v1.pdf
+
+Abstract:
+Towards the scalable realization of a quantum computer, a quantum charge-coupled device (QCCD) based on ion shuttling has been considered a promising approach. However, the processes of detaching an ion from an array, reintegrating it, and driving non-uniform motion introduce severe heating, requiring significant time and laser power for re-cooling and stabilization. To mitigate these challenges, we propose a novel entangling scheme between a stationary ion qubit and a continuously transported mobile ion, which remains in uniform motion and minimizes motional heating. We theoretically demonstrate a gate error on the order of 0.01%, within reach of current technology. This approach enables resource-efficient quantum operations and facilitates long-distance entanglement distribution, where stationary trapped-ion arrays serve as memory units and mobile ions act as communication qubits passing beside them. Our results pave the way for an alternative trapped-ion architecture beyond the QCCD paradigm.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16545v1
+- Title: Quantum graph resonances by cut-off technique
+- Authors: Pavel Exner, Jiří Lipovský, Jan Pekař
+- Categories: quant-ph (primary); quant-ph; math-ph; math.SP
+- Links: abs=https://arxiv.org/abs/2601.16545v1  pdf=https://arxiv.org/pdf/2601.16545v1.pdf
+
+Abstract:
+We demonstrate how resonances in a quantum graph consisting of a compact core and semi-infinite leads can be identified from the eigenvalue behavior of the cut-off system.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16570v1
+- Title: Certification of quantum properties with imperfect measurements
+- Authors: Leonardo Zambrano, Teodor Parella-Dilmé, Antonio Acín, Donato Farina
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16570v1  pdf=https://arxiv.org/pdf/2601.16570v1.pdf
+
+Abstract:
+The accurate characterization of quantum systems is essential for the advancement of quantum technologies. In particular, certifying convex functions of quantum states plays a central role in many applications. We present a certification method for experimentally prepared quantum states that accounts for both shot noise and measurement imperfections in the data-acquisition stage. Building upon previous work, our method extends confidence regions to accommodate imperfect control over measurements. The values of the functions can then be bounded using convex optimization techniques. We provide explicit prescriptions for quantifying the noise contribution from finite statistics and for estimating the effect of measurement imperfections. By jointly incorporating statistical and systematic errors, the method yields a robust certification framework for quantum experiments.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16665v1
+- Title: Efficient quantum machine learning with inverse-probability algebraic corrections
+- Authors: Jaemin Seo
+- Categories: quant-ph (primary); quant-ph; math-ph
+- Links: abs=https://arxiv.org/abs/2601.16665v1  pdf=https://arxiv.org/pdf/2601.16665v1.pdf
+
+Abstract:
+Quantum neural networks (QNNs) provide expressive probabilistic models by leveraging quantum superposition and entanglement, yet their practical training remains challenging due to highly oscillatory loss landscapes and noise inherent to near-term quantum devices. Existing training approaches largely rely on gradient-based procedural optimization, which often suffers from slow convergence, sensitivity to hyperparameters, and instability near sharp minima. In this work, we propose an alternative inverse-probability algebraic learning framework for QNNs. Instead of updating parameters through incremental gradient descent, our method treats learning as a local inverse problem in probability space, directly mapping discrepancies between predicted and target Born-rule probabilities to parameter corrections via a pseudo-inverse of the Jacobian. This algebraic update is covariant, does not require learning-rate tuning, and enables rapid movement toward the vicinity of a loss minimum in a single step. We systematically compare the proposed method with gradient descent and Adam optimization in both regression and classification tasks using a teacher-student QNN benchmark. Our results show that algebraic learning converges significantly faster, escapes loss plateaus, and achieves lower final errors. Under finite-shot sampling, the method exhibits near-optimal error scaling, while remaining robust against intrinsic hardware noise such as dephasing. These findings suggest that inverse-probability algebraic learning offers a principled and practical alternative to procedural optimization for QNN training, particularly in resource-constrained near-term quantum devices.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16671v1
+- Title: Charging of a Quantum Battery by a Single-Photon Quantum Pulse
+- Authors: Elnaz Darsheshdar, Seyed Mostafa Moniri
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16671v1  pdf=https://arxiv.org/pdf/2601.16671v1.pdf
+
+Abstract:
+We study a minimal model for charging a quantum battery consisting of a two-level system (TLS) acting as a charger, coupled to a harmonic oscillator that serves as the quantum battery. A single-photon quantum pulse of light excites the TLS, which subsequently transfers its excitation to the isolated battery. The TLS may also decay into the electromagnetic environment. We obtain analytical solutions for the dynamics of the battery and determine the optimal pulse shape that maximizes the stored energy. The optimal pulse saturates a universal bound for the stored energy, determined by the TLS decay rates into the pulse and the environment. Furthermore, we derive the minimum charging time and establish a quantum speed limit at the exceptional point, where a critical transition occurs in the system's dynamics. We also present analytical expressions for the charging power and investigate the pulse duration that maximizes it.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16679v1
+- Title: Classical Regularization in Variational Quantum Eigensolvers
+- Authors: Yury Chernyak, Ijaz Ahamed Mohammad, Martin Plesch
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16679v1  pdf=https://arxiv.org/pdf/2601.16679v1.pdf
+
+Abstract:
+While quantum computers are a very promising tool for the far future, in their current state of the art they remain limited both in size and quality. This has given rise to hybrid quantum-classical algorithms, where the quantum device performs only a small but vital part of the overall computation. Among these, variational quantum algorithms (VQAs), which combine a classical optimization procedure with quantum evaluation of a cost function, have emerged as particularly promising. However, barren plateaus and ill-conditioned optimization landscapes remain among the primary obstacles faced by VQAs, often leading to unstable convergence and high sensitivity to initialization. Motivated by this challenge, we investigate whether a purely classical remedy, standard L2 squared-norm regularization, can systematically stabilize hybrid quantum-classical optimization. Specifically, we augment the Variational Quantum Eigensolver (VQE) objective with a quadratic penalty proportional to the squared norm of the parameters, without modifying the quantum circuit or measurement process. Across all tested Hamiltonians, H2, LiH, and the Random Field Ising Model (RFIM), we observe improved performance over a broad window of the regularization strength. Our large-scale numerical results demonstrate that classical regularization provides a robust, system-independent mechanism for mitigating VQE instability, enhancing the reliability and reproducibility of variational quantum optimization without altering the underlying quantum circuit.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16697v1
+- Title: Sparsity-dependent Complexity Lower Bound of Quantum Linear System Solvers
+- Authors: Hitomi Mori, Yuta Kikuchi, Marcello Benedetti, Matthias Rosenkranz
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16697v1  pdf=https://arxiv.org/pdf/2601.16697v1.pdf
+
+Abstract:
+Quantum linear system (QLS) solvers are a fundamental class of quantum algorithms used in many potential quantum computing applications, including machine learning and solving differential equations. The performance of quantum algorithms is often measured by their query complexity, which quantifies the number of oracle calls required to access the input. The main parameters determining the complexity of QLS solvers are the condition number $κ$ and sparsity $s$ of the linear system, and the target error $ε$. To date, the best known query-complexity lower bound is $Ω(κ\log(1/ε))$, which establishes the optimality of the most recent QLS solvers. The original proof of this lower bound is attributed to Harrow and Kothari, but their result is unpublished. Furthermore, when discussing a more general lower bound including the sparsity $s$ of the linear system, it has become folklore that it should read as $Ω( κ\sqrt{s}\log(1/ε))$. In this work, we establish the rigorous lower bound capturing the sparsity dependence of QLS. We prove the lower bound of $Ω(κ\sqrt{s})$ for any quantum algorithm that solves QLS with constant error. While the dependence on all parameters $κ,s,ε$ remains an open problem, our result provides a crucial stepping stone toward the complete characterization of QLS complexity.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16698v1
+- Title: Entanglement harvesting in the presence of cavities
+- Authors: Jannik Ströhle, Nikolija Momcilovic
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16698v1  pdf=https://arxiv.org/pdf/2601.16698v1.pdf
+
+Abstract:
+So far, entanglement harvesting has been extensively studied in free space setups. Here, we provide a detailed analytical and numerical analysis of entanglement harvesting in cavities. Specifically, we adiabatically couple the quantized electromagnetic field to two identical Gaussian detectors located on the symmetry axis of a cylindrical cavity. Our numerical investigations reveal a strong dependence on the cavity length, while showing invariance under changes in the cavity radius in regimes of maximal entanglement. Moreover, we identify different scalings of the detector system parameters for entanglement inside and outside the light cone. Finally, we uncover a strong dependence of the harvested correlations on the cavity induced parity of the electromagnetic field.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16734v1
+- Title: SeeMPS: A Python-based Matrix Product State and Tensor Train Library
+- Authors: Paula García-Molina, Juan José Rodríguez-Aldavero, Jorge Gidi, Juan José García-Ripoll
+- Categories: quant-ph (primary); quant-ph; math.NA
+- Links: abs=https://arxiv.org/abs/2601.16734v1  pdf=https://arxiv.org/pdf/2601.16734v1.pdf
+
+Abstract:
+We introduce SeeMPS, a Python library dedicated to implementing tensor network algorithms based on the well-known Matrix Product States (MPS) and Quantized Tensor Train (QTT) formalisms. SeeMPS is implemented as a complete finite precision linear algebra package where exponentially large vector spaces are compressed using the MPS/TT formalism. It enables both low-level operations, such as vector addition, linear transformations, and Hadamard products, as well as high-level algorithms, including the approximation of linear equations, eigenvalue computations, and exponentially efficient Fourier transforms. This library can be used for traditional quantum many-body physics applications and also for quantum-inspired numerical analysis problems, such as solving PDEs, interpolating and integrating multidimensional functions, sampling multivariate probability distributions, etc.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16758v1
+- Title: Noise Resilience and Robust Convergence Guarantees for the Variational Quantum Eigensolver
+- Authors: Mirko Legnini, Julian Berberich
+- Categories: quant-ph (primary); quant-ph; eess.SY; math.OC
+- Links: abs=https://arxiv.org/abs/2601.16758v1  pdf=https://arxiv.org/pdf/2601.16758v1.pdf
+
+Abstract:
+Variational Quantum Algorithms (VQAs) are a class of hybrid quantum-classical algorithms that leverage on classical optimization tools to find the optimal parameters for a parameterized quantum circuit. One relevant application of VQAs is the Variational Quantum Eigensolver (VQE), which aims at steering the output of the quantum circuit to the ground state of a certain Hamiltonian. Recent works have provided global convergence guarantees for VQEs under suitable local surjectivity and smoothness hypotheses, but little has been done in characterizing convergence of these algorithms when the underlying quantum circuit is affected by noise. In this work, we characterize the effect of different coherent and incoherent noise processes on the optimal parameters and the optimal cost of the VQE, and we study their influence on the convergence guarantees of the algorithm. Our work provides novel theoretical insight into the behavior of parameterized quantum circuits. Furthermore, we accompany our results with numerical simulations implemented via Pennylane.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16779v1
+- Title: Investigating Retargetability Claims for Quantum Compilers
+- Authors: Luke Southall, Joshua Ammermann, Rinor Kelmendi, Domenik Eichhorn, Ina Schaefer
+- Categories: quant-ph (primary); quant-ph; cs.SE
+- Links: abs=https://arxiv.org/abs/2601.16779v1  pdf=https://arxiv.org/pdf/2601.16779v1.pdf
+
+Abstract:
+In the NISQ-era, there is a wide variety of hardware manufacturers building quantum computers. Each of these companies may choose different approaches and hardware architectures for their machines. This poses a problem for quantum software engineering, as the retargetability of quantum programs across different hardware platforms becomes a non-trivial challenge. In response to this problem, various retargetable quantum compilers have been presented in the scientific literature. These promise the ability to compile software for different hardware platforms, enabling retargetability for quantum software. In this paper, we develop and apply a metric by which the retargetability of the quantum compilers can be assessed. We develop and run a study to analyze key aspects regarding the retargetability of the compilers Tket, Qiskit, and ProjectQ. Our findings indicate that Tket demonstrates the highest level of retargetability, closely followed by Qiskit, while ProjectQ lags behind. These results provide insights for quantum software developers in selecting appropriate compilers for their use-cases, and highlight areas for improvement in quantum compilers.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16816v1
+- Title: Harnessing Quantum Computing for Energy Materials: Opportunities and Challenges
+- Authors: Seongmin Kim, In-Saeng Suh, Travis S. Humble, Thomas Beck, Eungkyu Lee, Tengfei Luo
+- Categories: quant-ph (primary); quant-ph; cs.CE
+- Links: abs=https://arxiv.org/abs/2601.16816v1  pdf=https://arxiv.org/pdf/2601.16816v1.pdf
+
+Abstract:
+Developing high-performance materials is critical for diverse energy applications to increase efficiency, improve sustainability and reduce costs. Classical computational methods have enabled important breakthroughs in energy materials development, but they face scaling and time-complexity limitations, particularly for high-dimensional or strongly correlated material systems. Quantum computing (QC) promises to offer a paradigm shift by exploiting quantum bits with their superposition and entanglement to address challenging problems intractable for classical approaches. This perspective discusses the opportunities in leveraging QC to advance energy materials research and the challenges QC faces in solving complex and high-dimensional problems. We present cases on how QC, when combined with classical computing methods, can be used for the design and simulation of practical energy materials. We also outline the outlook for error-corrected, fault-tolerant QC capable of achieving predictive accuracy and quantum advantage for complex material systems.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16840v1
+- Title: Protocols to share genuine multipartite entanglement employing copies of biseparable states
+- Authors: Swati Choudhary, Ujjwal Sen, Saronath Halder
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16840v1  pdf=https://arxiv.org/pdf/2601.16840v1.pdf
+
+Abstract:
+Sharing genuine multipartite entanglement by considering collective use of copies of biseparable states, which are entangled across all bipartitions but lack genuine multipartite entanglement at the single-copy level, plays a central role in several quantum information processing protocols, and has been referred as genuine multipartite entanglement activation. We present a protocol for three-qutrit systems showing that two copies of rank-two biseparable states, entangled across every bipartition, are sufficient to generate a genuinely multipartite entangled state with nonzero probability. This contrasts with the three-qubit scenario where many copies of biseparable states might be required for sharing genuine multipartite entanglement. We subsequently generalize our protocols to the case of an arbitrary number of parties. Our protocol does not rely on the implementation of joint measurements on the copies of states. Interestingly, the proposed construction naturally leads to the activation of genuinely nonlocal correlations, yielding a result that is stronger than genuine multipartite entanglement activation alone.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16875v1
+- Title: Generation of fully phase controlled two-photon entangled states
+- Authors: Ian Ford, Adrien Amour, Matthias Keller
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16875v1  pdf=https://arxiv.org/pdf/2601.16875v1.pdf
+
+Abstract:
+Control over the internal states of trapped ions makes them the ideal system to generate single and two-photon states. Coupling a single ion to an optical cavity enables efficient emission of single photons into a single spatial mode and grants control over their temporal shape, phase and frequency. Using the long coherence time of the ion's internal states and employing a scheme to protect the coherence of the ion-cavity interaction, we demonstrate the generation of a two-photon entangled state with full control over the phase. Initially, ion-photon entanglement is generated. A second photon is subsequently generated, mapping the ion's state onto the second photon. By adjusting the drive field the phase of the entangled state can be fully controlled. We implement this scheme in the most resource efficient way by utilizing a single $^{40}$Ca$^+$ ion coupled to an optical cavity and demonstrate the generation of a two-photon entangled stated with full phase control with a fidelity of up to 82\%.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16892v1
+- Title: Quantum Position Verification with Remote Untrusted Devices
+- Authors: Gautam A. Kavuri, Yanbao Zhang, Abigail R. Gookin, Soumyadip Patra, Joshua C. Bienfang, Honghao Fu, Yusuf Alnawakhtha, Dileep V. Reddy, et al.
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16892v1  pdf=https://arxiv.org/pdf/2601.16892v1.pdf
+
+Abstract:
+Many applications require or benefit from being able to securely localize remote parties. In classical physics, adversaries can in principle have complete knowledge of such a party's devices, and secure localization is fundamentally impossible. This limitation can be overcome with quantum technologies, but proposals to date require trusting vulnerable hardware. Here we develop and experimentally demonstrate a protocol for device-independent quantum position verification that guarantees security with only observed correlations from a loophole-free Bell test across a quantum network. The protocol certifies the position of a remote party against adversaries who, before each instance of the test, are weakly entangled, but otherwise have unlimited quantum computation and communication capabilities. Our demonstration achieves a one-dimensional localization that is 2.47(2) times smaller than the best, necessarily non-remote, classical localization protocol. Compared to such a classical protocol having identical latencies, the localization is 4.53(5) times smaller. This work anchors digital security in the physical world.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16898v1
+- Title: Upper bounds on the purity of Wigner positive quantum states that verify the Wigner entropy conjecture
+- Authors: Qipeng Qian, Christos Gagatsos
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16898v1  pdf=https://arxiv.org/pdf/2601.16898v1.pdf
+
+Abstract:
+We present analytical results toward the Wigner entropy conjecture, which posits that among all physical Wigner non-negative states the Wigner entropy is minimized by pure Gaussian states for which it attains the value $1+\lnπ$.Working under a minimal set of constraints on the Wigner function, namely, non-negativity, normalization, and the pointwise bound $πW\le 1$, we construct an explicit hierarchy of lower bounds $B_n$ on $S[W]$ by combining a truncated series lower bound for $-\ln x$ with moment identities of the Wigner function.This yields closed-form purity-based sufficient conditions ensuring $S[W]\ge 1+\lnπ$.In particular, we first prove that all Wigner non-negative states with $μ\le 4-2\sqrt3$ satisfy the Wigner entropy conjecture. We further obtain a systematic purity-only relaxation of the hierarchy, yielding the simple sufficient condition $μ\le 2/e$. On top of aforesaid results, our analysis clarifies why additional physicality constraints are necessary for purity-based approaches that aim to approach the extremal case $μ\leq1$.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16941v1
+- Title: Quantum Fisher information analysis for absorption measurements with undetected photons
+- Authors: Martin Houde, Franz Roeder, Christine Silberhorn, Benjamin Brecht, Nicolás Quesada
+- Categories: quant-ph (primary); quant-ph; physics.optics
+- Links: abs=https://arxiv.org/abs/2601.16941v1  pdf=https://arxiv.org/pdf/2601.16941v1.pdf
+
+Abstract:
+We theoretically compare the quantum Fisher information (QFI) for three configurations of absorption spectroscopy with undetected idler photons: an SU(1,1) interferometer with inter-source idler loss, an induced-coherence (IC) setup in which the idler partially seeds a second squeezer together with a vacuum ancilla, and a distributed-loss (DL) scheme with in-medium attenuation. We calculate the QFI as a function of parametric gain for both full and signal-only detection access. For losses below 99% and low to moderate gain, the SU(1,1) configuration provides the largest QFI. At high gain and intermediate loss, the IC scheme performs best, while under extreme attenuation (transmission $<$ 1%) the DL model becomes optimal. These results delineate the measurement regimes in which each architecture is optimal in terms of information theory.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16952v1
+- Title: Experimental investigation of nonclassicality in the simplest scenario via the degrees of freedom of light
+- Authors: João M. M. Gama, Guilherme T. C. Cruz, Massy Khoshbin, Lorenzo Catani, José A. O. Huguenin, Wagner F. Balthazar
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16952v1  pdf=https://arxiv.org/pdf/2601.16952v1.pdf
+
+Abstract:
+In this work, we experimentally investigate the classical-light emulation of different notions of nonclassicality in the simplest scenario. We implement this prepare-and-measure scenario involving four preparations and two binary-outcome measurements using two distinct experimental setups that exploit different degrees of freedom of light: polarization and first-order Hermite-Gaussian transverse modes. We additionally model experimental noise through an all-optical setup that reproduces the operational effect of a depolarizing channel. Our experimental results are consistent with the findings of Khoshbin et al. [Phys. Rev. A 109, 032212 (2024)]: under the assumption that the two measurements performed form a tomographically complete set, the observed statistics violate their noise-robust inequalities, indicating inconsistencies with preparation noncontextuality and bounded ontological distinctness for preparations. Although our implementation uses classical light, it reproduces the statistics predicted for the simplest scenario. Since the states and measurements of this scenario underpin computational advantages in tasks such as two-bit quantum random access codes -- among the simplest communication primitives enabling semi-device-independent certification of nonclassicality -- our implementation is directly relevant for such applications.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16961v1
+- Title: Engineering discrete local dynamics in globally driven dual-species atom arrays
+- Authors: Francesco Cesa, Andrea Di Fini, David Aram Korbany, Roberto Tricarico, Hannes Bernien, Hannes Pichler, Lorenzo Piroli
+- Categories: quant-ph (primary); quant-ph; physics.atom-ph
+- Links: abs=https://arxiv.org/abs/2601.16961v1  pdf=https://arxiv.org/pdf/2601.16961v1.pdf
+
+Abstract:
+We introduce a method for engineering discrete local dynamics in globally-driven dual-species neutral atom experiments, allowing us to study emergent digital models through uniform analog controls. Leveraging the new opportunities offered by dual-species systems, such as species-alternated driving, our construction exploits simple Floquet protocols on static atom arrangements, and benefits of generalized blockade regimes (different inter- and intra-species interactions). We focus on discrete dynamical models that are special examples of Quantum Cellular Automata (QCA), and explicitly consider a number of relevant examples, including the kicked-Ising model, the Floquet Kitaev honeycomb model, and the digitization of generic translation-invariant nearest-neighbor Hamiltonians (e.g., for Trotterized evolution). As an application, we study chaotic features of discretized many-body dynamics that can be detected by leveraging only demonstrated capabilities of globally-driven experiments, and benchmark their ability to discriminate chaotic evolution.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16968v1
+- Title: Autonomous Optical Alignment of Satellite-Based Entanglement Sources using Reinforcement Learning
+- Authors: Andrzej Gajewski, Robert Okuła, Marcin Pawłowski, Akshata Shenoy H
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16968v1  pdf=https://arxiv.org/pdf/2601.16968v1.pdf
+
+Abstract:
+Quantum entanglement distributed via satellites enable global-scale quantum communication. However, onboard sources are susceptible to misalignment due to dynamical orbital conditions. Here, we present two recalibration techniques for efficient generation of high quality entanglement using a periodically poled lithium niobate (PPLN)-based spontaneous parametric down-conversion (SPDC) source with minimum intervention. The first is a heuristic algorithm (HA) which mimics the manual alignment process in a laboratory. The second is based on reinforcement learning (RL). Our simulation demonstrates superior performance of RL with AUC=0.9119 compared to HA's 0.7042 in the modified ROC analysis (60 min threshold). RL achieves perfect alignment in 10 min as opposed to HA's 30 min. Both the methods operate within feasible satellite constraints, offering scalable automation for complex quantum communication scenarios.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16974v1
+- Title: Formalising an operational continuum limit of quantum combs
+- Authors: Clara Wassner, Jonáš Fuksa, Jens Eisert, Gregory A. L. White
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16974v1  pdf=https://arxiv.org/pdf/2601.16974v1.pdf
+
+Abstract:
+Quantum combs are powerful conceptual tools for capturing multi-time processes in quantum information theory, constituting the most general quantum mechanical process. But, despite their causal nature, they lack a meaningful physical connection to time -- and are, by and large, arguably incompatible with it without extra structure. The subclass of quantum combs which assumes an underlying process is described by the so-called process tensor framework, which has been successfully used to study and characterise non-Markovian open quantum systems. But, although process tensors are motivated by an underlying dynamics, it is not a priori clear how to connect to a continuous process tensor object mathematically -- leaving an uncomfortable conceptual gap. In this work, we take a decisive step toward remedying this situation. We introduce a fully continuous process tensor framework by showing how the discrete multi-partite Choi state becomes a field-theoretic state in bosonic Fock space, which is intrinsically and rigorously defined in the continuum. With this equipped, we lay out the core structural elements of this framework and its properties. This translation allows for an information-theoretic treatment of multi-time correlations in the continuum via the analysis of their continuous matrix product state representatives. Our work closes a gap in the quantum information literature, and opens up the opportunity for the application of many-body physics insights to our understanding of quantum stochastic processes in the continuum.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16261v1
+- Title: A First Demonstration of the SQUAT Detector Architecture: Direct Measurement of Resonator-Free Charge-Sensitive Transmons
+- Authors: H. Magoon, T. Aralis, T. Dyson, J. Anczarski, D. Baxter, G. Bratrud, R. Carpenter, S. Condon, et al.
+- Categories: physics.ins-det (primary); physics.ins-det; quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16261v1  pdf=https://arxiv.org/pdf/2601.16261v1.pdf
+
+Abstract:
+The Superconducting Quasiparticle-Amplifying Transmon (SQUAT) is a new sensor architecture for THz (meV) detection based on a weakly charge-sensitive transmon directly coupled to a transmission line. In such devices, energy depositions break Cooper pairs in the qubit capacitor islands, generating quasiparticles. Quasiparticles that tunnel across the Josephson junction change the transmon qubit parity, generating a measurable signal. In this paper, we present the design of first-generation SQUATs and demonstrate an architecture validation. We summarize initial characterization measurements made with prototype devices, comment on background sources that influence the observed parity-switching rate, and present experimental results showing simultaneous detection of charge and quasiparticle signals using aluminum-based SQUATs.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16279v1
+- Title: Anisotropic uncertainty principles for metaplectic operators
+- Authors: Elena Cordero, Gianluca Giacchi, Edoardo Pucci
+- Categories: math.AP (primary); math.AP; math-ph; math.SG; quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16279v1  pdf=https://arxiv.org/pdf/2601.16279v1.pdf
+
+Abstract:
+We establish anisotropic uncertainty principles (UPs) for general metaplectic operators acting on   $L^2(\mathbb{R}^d)$, including degenerate cases associated with symplectic matrices whose   $B$-block has nontrivial kernel. In this setting, uncertainty phenomena are shown to be intrinsically   directional and confined to an effective phase-space dimension given by $\mathrm{rank}(B)$.   First, we prove sharp Heisenberg-Pauli-Weyl type inequalities involving only the directions   corresponding to $\ker(B)^\perp$, with explicit lower bounds expressed in terms of geometric   quantities associated with the underlying symplectic transformation. We also provide a complete   characterization of all extremizers, which turn out to be partially Gaussian functions with free   behavior along the null directions of $B$.   Building on this framework, we extend the Beurling-Hörmander theorem to the metaplectic   setting, obtaining a precise polynomial-Gaussian structure for functions satisfying suitable   exponential integrability conditions involving both $f$ and its metaplectic transform. Finally,   we prove a Morgan-type (or Gel'fand--Shilov type) uncertainty principle for metaplectic operators,   identifying a sharp threshold separating triviality from density of admissible functions and   showing that this threshold is invariant under metaplectic transformations.   Our results recover the classical Fourier case and free metaplectic transformations as special   instances, and reveal the geometric and anisotropic nature of uncertainty principles in the   presence of symplectic degeneracies.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16304v1
+- Title: Axial Anomaly, entanglement and polarization
+- Authors: O. V. Teryaev
+- Categories: hep-ph (primary); hep-ph; nucl-th; quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16304v1  pdf=https://arxiv.org/pdf/2601.16304v1.pdf
+
+Abstract:
+The (pion) decays controlled by axial anomaly imply the specific entanglement between photons having also the counterparts for classical electromagnetic waves. This is also a specific case of Eisnstein-Podolsky-Rosen-Bohm-Aharonov effect. The absence of causality and non-locality in (angular) momentum conservation is manifested, being especially clear for the generalization to the case of time rather than space separation corresponds to the polarization of dileptons described by time-like pion transition formfactors which may be studied experimentally. The similar decays in external magnetic field manifest the interplay with vacuum conductivity in external magnetic field and longitudinal polarization of vector mesons observed in heavy-ion collisions.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16306v1
+- Title: A modified Lindblad equation for a Rabi driven electron-spin qubit with tunneling to a Markovian lead
+- Authors: Emily Townsend, Joshua Pomeroy, Garnett W. Bryant
+- Categories: cond-mat.mes-hall (primary); cond-mat.mes-hall; quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16306v1  pdf=https://arxiv.org/pdf/2601.16306v1.pdf
+
+Abstract:
+We derive a modified Lindblad equation for the state of quantum dot tunnel coupled to a Markovian lead when the spin state of the dot is driven by an oscillating magnetic field. We show that the equation is a completely positive, trace-preserving map and find the jump operators. This is a driven-dissipative regime in which coherent driving is relevant to the tunneling and cannot be treated as simply a rotation modifying the system with a bath derived under a static magnetic field. This work was motivated by an experimental desire to determine the Zeeman splitting of an electron spin on a quantum dot (a spin qubit), and in a related work we show that this splitting energy can be found by measuring the charge occupancy of the dot while sweeping the frequency of the driving field \ arXiv:2503.17481. Here we cover the full derivation of the equation and give the jump operators. These jump operators are potentially useful for describing the stochastic behavior of more complex systems with coherent driving of a spin capable of tunneling on or off of a device, such as in electron spin resonance scanning tunneling microscopy. The jump operators have the interesting feature of combining jumps of electrons onto and off of the device.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16328v1
+- Title: Bichromatic Tweezers for Qudit Quantum Computing in ${}^{87}$Sr
+- Authors: Enrique A. Segura Carrillo, Eric J. Meier, Michael J. Martin
+- Categories: physics.atom-ph (primary); physics.atom-ph; quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16328v1  pdf=https://arxiv.org/pdf/2601.16328v1.pdf
+
+Abstract:
+Neutral atoms have become a competitive platform for quantum metrology, simulation, sensing, and computing. Current magic trapping techniques are insufficient to engineer magic trapping conditions for qudits encoded in hyperfine states with $J \neq 0$, compromising qudit coherence. In this paper we propose a scheme to engineer magic trapping conditions for qudits via bichromatic tweezers. We show it is possible to suppress differential light shifts across all magnetic sublevels of the $5s5p$ $\mathrm{^{3}P_2}$ state by using two carefully chosen wavelengths (with comparable tensor light shift magnitude and opposite sign) at an appropriate intensity ratio, thus suppressing light-shift induced dephasing, enabling scalar magic conditions between the ground state and $5s5p$ $\mathrm{^{3}P_2}$, and tensor magic conditions for qudits encoded within it. Furthermore, this technique enables robust operation at the tensor magic angle 54.7$^\circ$ with linear trap polarization via reduced sensitivity to uncertainty in experimental parameters. We expect this technique to enable new loading protocols, enhance cooling efficiency, and enhance nuclear spins' coherence times, thus facilitating qudit-based quantum computing in ${}^{87}$Sr in the $5s5p$ $\mathrm{^{3}P_2}$ manifold.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16329v1
+- Title: National Quantum Strategies: A Data-Driven Approach to Understanding the Quantum Ecosystem
+- Authors: Simon Richard Goorney, Emre Aslan, Aleksandrs Baskakovs, Borja Muñoz, Jacob Sherson
+- Categories: physics.soc-ph (primary); physics.soc-ph; quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16329v1  pdf=https://arxiv.org/pdf/2601.16329v1.pdf
+
+Abstract:
+As quantum technologies (QT) move from foundational research toward industrial and societal deployment, national strategies have become critical instruments for shaping the future of this emerging field. In this study, we conduct the first large-scale, data-driven analysis of 62 national quantum strategic documents (QSDs) from 20 countries. Using AI-based natural language processing (topic modeling), we identify 12 topics present in the text, ranging from technical development areas to transversal aspects such as workforce development and governance. Temporal analysis reveals a distinct shift in policy discourse toward applications of QT and commercialisation, and relatively away from basic science. Our findings highlight the increasing diversification of the QT field, and contribute to the growing area of quantum policy studies. We advocate for more AI and data-driven analyses of the quantum ecosystem, to work toward a scalable framework for understanding the technological and societal challenges of the second quantum revolution.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16423v1
+- Title: Quantum Sensing MRI for Noninvasive Detection of Neuronal Electrical Activity in Human Brains
+- Authors: Yongxian Qian, Ying-Chia Lin, Seyedehsara Hejazi, Kamri Clarke, Kennedy Watson, Xingye Chen, Nahbila-Malikha Kumbella, Justin Quimbo, et al.
+- Categories: physics.med-ph (primary); physics.med-ph; quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16423v1  pdf=https://arxiv.org/pdf/2601.16423v1.pdf
+
+Abstract:
+Neuronal electrical activity underlies human cognition, yet its direct, noninvasive measurement in the living human brain remains a fundamental challenge. Existing neuroimaging techniques, including EEG, MEG, and fMRI, are limited by trade-offs in sensitivity and spatial or temporal resolution. Here we propose quantum sensing MRI (qsMRI), a noninvasive approach that enables direct detection of neuronal firing-induced magnetic fields using a clinical MRI system. qsMRI exploits endogenous proton (1H) nuclear spins in water molecules as intrinsic quantum sensors and decodes time-resolved phase information from free induction decay (FID) signals to infer neuronal magnetic fields. We validate qsMRI through simulations, phantom experiments, and human studies at rest and during motor tasks, and provide open experimental procedures to facilitate independent validation. We further present a case study demonstrating potential applications to neurological disorders. qsMRI represents a first-in-human application of quantum sensing on a clinical MRI platform, establishes a non-BOLD functional imaging modality, and enables interrogation of neuronal firing dynamics in both cortical and deep brain regions.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16484v1
+- Title: Integrated Photonic Quantum Computing: From Silicon to Lithium Niobate
+- Authors: Hui Zhang, Yiming Ma, Di Zhu, Yuancheng Zhan, Yuzhi Shi, Zhanshan Wang, Leong Chuan Kwek, Anthony Laing, et al.
+- Categories: physics.optics (primary); physics.optics; quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16484v1  pdf=https://arxiv.org/pdf/2601.16484v1.pdf
+
+Abstract:
+Quantum technologies have surpassed classical systems by leveraging the unique properties of superposition and entanglement in photons and matter. Recent advancements in integrated quantum photonics, especially in silicon-based and lithium niobate platforms, are pushing the technology toward greater scalability and functionality. Silicon circuits have progressed from centimeter-scale, dual-photon systems to millimeter-scale, high-density devices that integrate thousands of components, enabling sophisticated programmable manipulation of multi-photon states. Meanwhile, lithium niobate, thanks to its wide optical transmission window, outstanding nonlinear and electro-optic coefficients, and chemical stability, has emerged as an optimal substrate for fully integrated photonic quantum chips. Devices made from this material exhibit high efficiency in in generating, manipulating, converting, storing, and detecting photon states, thereby establishing a basis for deterministic multi-photon generation and single-photon quantum interactions, as well as comprehensive frequency-state control. This review explores the development of integrated photonic quantum technologies based on both silicon and lithium niobate, highlighting invaluable insights gained from silicon-based systems that can assist the scaling of lithium niobate technologies. It examines the functional integration mechanisms of lithium niobate in electro-optic tuning and nonlinear energy conversion, showcasing its transformative impact throughout the photonic quantum computing process. Looking ahead, we speculate on the developmental pathways for lithium niobate platforms and their potential to revolutionize areas such as quantum communication, complex system simulation, quantum sampling, and optical quantum computing paradigms.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16564v1
+- Title: A Robust Strontium Tweezer Apparatus for Quantum Computing
+- Authors: Marijn Venderbosch, Rik van Herk, Zhichao Guo, Jesús del Pozo Mellado, Max Festenstein, Deon Janse van Rensburg, Ivo Knottnerus, Yu Chih Tseng, et al.
+- Categories: physics.atom-ph (primary); physics.atom-ph; quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16564v1  pdf=https://arxiv.org/pdf/2601.16564v1.pdf
+
+Abstract:
+Neutral atoms for quantum computing applications show promise in terms of scalability and connectivity. We demonstrate the realization of a versatile apparatus capable of stochastically loading a 5x5 array of optical tweezers with single $^{88}$Sr atoms featuring flexible magnetic field control and excellent optical access. A custom-designed oven, spin-flip Zeeman slower, and deflection stage produce a controlled flux of Sr directed to the science chamber. In the science chamber, featuring a vacuum pressure of $3 \times 10^{-11}$ mbar, the Sr is cooled using two laser cooling stages, resulting in $\sim 3 \times 10^5$ atoms at a temperature of 5(1) $μ$K. The optical tweezers feature a $1/e^2$ waist of 0.81(2) $μ$m, and loaded atoms can be imaged with a fidelity of $\sim 0.997$ and a survival probability of $0.99^{+0.01}_{-0.02}$. The atomic array presented here forms the core of a full-stack quantum computing processor targeted for quantum chemistry computational problems.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16646v1
+- Title: Algebraic Geometry for Spin-Adapted Coupled Cluster Theory
+- Authors: Fabian M. Faulstich, Svala Sverrisdóttir
+- Categories: physics.chem-ph (primary); physics.chem-ph; math.AG; math.RT; quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16646v1  pdf=https://arxiv.org/pdf/2601.16646v1.pdf
+
+Abstract:
+We develop and numerically analyze an algebraic-geometric framework for spin-adapted coupled-cluster (CC) theory. Since the electronic Hamiltonian is SU(2)-invariant, physically relevant quantum states lie in the spin singlet sector. We give an explicit description of the SU(2)-invariant (spin singlet) many-body space by identifying it with an Artinian commutative ring, called the excitation ring, whose dimension is governed by a Narayana number. We define spin-adapted truncation varieties via embeddings of graded subspaces of this ring, and we identify the CCS truncation variety with the Veronese square of the Grassmannian. Compared to the spin-generalized formulation, this approach yields a substantial reduction in dimension and degree, with direct computational consequences. In particular, the CC degree of the truncation variety -- governing the number of homotopy paths required to compute all CC solutions -- is reduced by orders of magnitude. We present scaling studies demonstrating asymptotic improvements and we exploit this reduction to compute the full solution landscape of spin-adapted CC equations for water and lithium hydride.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16703v1
+- Title: Dirac-Bergmann algorithm and canonical quantization of $k$-essence cosmology
+- Authors: Andrés Lueiza, Andronikos Paliathanasis, Nikolaos Dimakis
+- Categories: gr-qc (primary); gr-qc; hep-th; quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16703v1  pdf=https://arxiv.org/pdf/2601.16703v1.pdf
+
+Abstract:
+We develop a general canonical quantization scheme for $k$-essence cosmology in scalar-tensor theory. Utilizing the Dirac-Bergmann algorithm, we construct the Hamiltonian associated with the cosmological field equations and identify the first- and second-class constraints. The introduction of appropriate canonically conjugate variables with respect to Dirac brackets, allows for the canonical quantization of the model. In these new variables, the Hamiltonian constraint reduces to a quadratic function with no potential term. Its quantum realization leads to a Wheeler-DeWitt equation reminiscent of the massless Klein-Gordon case. As an illustrative example, we consider the action of a tachyonic field and investigate the conditions under which a phantom crossing can occur as a quantum tunneling effect. For the simplified constant potential case, we investigate the consequences of different boundary conditions on the singularity avoidance and to the mean expansion rate.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16747v1
+- Title: Moderate-terahertz-induced plateau expansion of high-order harmonic generation to soft X-ray region
+- Authors: Doan-An Trieu, Duong D. Hoang-Trong, Cam-Tu Le, Sang Ha, Ngoc-Hung Phan, F. V. Potemkin, Van-Hoang Le, Ngoc-Loan Phan
+- Categories: physics.optics (primary); physics.optics; quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16747v1  pdf=https://arxiv.org/pdf/2601.16747v1.pdf
+
+Abstract:
+Extending the high-harmonic cutoff with experimentally accessible fields is essential for advancing tabletop coherent extreme ultraviolet (EUV) and soft X-ray sources. Although terahertz (THz) assistance offers a promising route, cutoff extension at weak, laboratory-accessible THz strengths remain poorly understood. In this report, we comprehensively investigate THz-assisted high-order harmonic generation (HHG) using time-dependent Schrödinger equation simulations supported by classical trajectory analysis and Bohmian-based quantum dynamics. By mapping the plateau evolution versus THz strength, we show that even weak THz fields can extend the cutoff, producing a pronounced ``fish-fin'' structure whose prominent rays saturate near $I_p + 8 U_p$. We trace this extension to long electron excursions spanning several optical cycles before recombination, and provide a fully consistent explanation using both classical analysis and Bohmian trajectories flow. Our findings reveal that this cutoff-extension mechanism is remarkably robust, persisting across different atomic species and remaining insensitive to variations in the driving parameters. These results demonstrate that cutoff control is achievable with laboratory-scale THz fields, offering practical guidelines for engineering coherent high-energy HHG, and providing a robust pathway for tracking ultrafast electron motion in real time.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16776v1
+- Title: Z2 Lattice Gauge Theory on Non-trivial Topology and Its Quantum Simulation
+- Authors: Jiaqi Hu, Shu Tian, Xiaopeng Cui, Rebing Wu, Man-Hong Yung, Yu Shi
+- Categories: hep-lat (primary); hep-lat; cond-mat.other; quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16776v1  pdf=https://arxiv.org/pdf/2601.16776v1.pdf
+
+Abstract:
+Wegner duality is essential for Z2 lattice gauge theory, yet the duality on non-trivial topologies has remained implicit. We extend Wegner duality to arbitrary topology and dimension, obtaining a new class of Ising models, in which topology is encoded in non-local domain-wall patterns. Without the overhead of gauge constraints, simulating this model on an L*L torus requires only L*L qubits with two-body couplings, halving the conventional four-body coupled 2L*L qubits, enabling full experimental realization of Z2 lattice gauge theory on near-term devices.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16883v1
+- Title: Universal classical and quantum fluctuations in the large deviations of current of noisy quantum systems: The case of QSSEP and QSSIP
+- Authors: Mathias Albert, Denis Bernard, Tony Jin, Stefano Scopa, Shiyi Wei
+- Categories: cond-mat.stat-mech (primary); cond-mat.stat-mech; quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16883v1  pdf=https://arxiv.org/pdf/2601.16883v1.pdf
+
+Abstract:
+We study the fluctuation statistics of integrated currents in noisy quantum diffusive systems, focusing on the Quantum Symmetric Simple Exclusion and Inclusion Processes (QSSEP/QSSIP). These one-dimensional fermionic (QSSEP) and bosonic (QSSIP) models feature stochastic nearest-neighbor hopping driven by Brownian noise, together with boundary injection and removal processes. They provide solvable microscopic settings in which quantum coherence coexists with diffusion. Upon noise averaging, their dynamics reduce to those of the classical SSEP/SSIP. We show that the cumulant generating function of the integrated current, at large scales, obeys a large deviation principle. To leading order in system size and for each noise realization, it converges to that of the corresponding classical process, establishing a classical typicality of current fluctuations in these noisy quantum systems. We further demonstrate a direct connection with Macroscopic Fluctuation Theory (MFT), showing that the large-scale equations satisfied by biased quantum densities coincide with the steady-state Hamilton equations of MFT, thereby providing a microscopic quantum justification of the MFT framework in these models. Finally, we identify the leading finite-size corrections to the current statistics. We show the existence of subleading contributions of purely quantum origin, which are absent in the corresponding classical setting, and provide their explicit expressions for the second and third current cumulants. These quantum corrections are amenable to direct experimental or numerical verification, provided sufficient control over the noise realizations can be achieved. Their presence points toward the necessity of a quantum extension of Macroscopic Fluctuation Theory.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.16951v1
+- Title: Boundary critical phenomena in the quantum Ashkin-Teller model
+- Authors: Yifan Liu, Natalia Chepiga, Yoshiki Fukusumi, Masaki Oshikawa
+- Categories: cond-mat.str-el (primary); cond-mat.str-el; hep-th; quant-ph
+- Links: abs=https://arxiv.org/abs/2601.16951v1  pdf=https://arxiv.org/pdf/2601.16951v1.pdf
+
+Abstract:
+We investigate the boundary critical phenomena of the one-dimensional quantum Ashkin-Teller model using boundary conformal field theory and density matrix renormalization group (DMRG) simulations. Based on the $\mathbb{Z}_2$-orbifold of the $c=1$ compactified boson boundary conformal field theory, we construct microscopic lattice boundary terms that renormalize to the stable conformal boundary conditions,, utilizing simple current extensions and the underlying $\mathrm{SU}(2)$ symmetry to explicitly characterize the four-state Potts point. We validate these theoretical identifications via finite-size spectroscopy of the lattice energy spectra, confirming their consistency with $D_4$ symmetry and Kramers-Wannier duality. Finally, we discuss the boundary renormalization group flows among these identified fixed points to propose a global phase diagram for the boundary criticality.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2307.09566v2
+- Title: Fast design and scaling of multi-qubit gates in large-scale trapped-ion quantum computers
+- Authors: Lee Peleg, David Schwerdt, Jonathan Nemirovsky, Yotam Shapira, Nitzan Akerman, Ady Stern, Amit Ben Kish, Roee Ozeri
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2307.09566v2  pdf=https://arxiv.org/pdf/2307.09566v2.pdf
+
+Abstract:
+Quantum computers based on crystals of trapped ions are a prominent technology for quantum computation. A unique feature of trapped ions is their long-range Coulomb interactions, which can be exploited to realize large-scale multiqubit entanglement gates. However, scaling up the number of qubits, $N$, in these systems, while retaining high-fidelity and high-speed operations, is challenging. Specifically, designing multiqubit entanglement gates in long ion crystals of hundreds of ions involves an NP-hard optimization problem, rendering scale-up not only a technological challenge, but also a conceptual challenge. Here we introduce a method that mitigates this challenge, effectively allowing for a polynomial-time design of fast, robust, and programmable entanglement gates, acting on the entire ion-crystal. We show that while the number of simultaneous entanglement operations scales as $N^2$, the gate duration scales as $N$, leading to a scaling advantage. We use our methods to investigate the drive-power requirements and susceptibility to noise and errors of these multiqubit gates. Our method delineates a path towards scaling up quantum computers based on ion-crystals with hundreds of qubits.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2309.10804v2
+- Title: Continuous-wave all-optical single-photon transistor based on a Rydberg-atom ensemble
+- Authors: Iason Tsiamis, Oleksandr Kyriienko, Anders S. Sørensen
+- Categories: quant-ph (primary); quant-ph; cond-mat.quant-gas
+- Links: abs=https://arxiv.org/abs/2309.10804v2  pdf=https://arxiv.org/pdf/2309.10804v2.pdf
+
+Abstract:
+Continuous-wave (cw) architectures provide a promising route to interface disparate quantum systems by relaxing the need for precise synchronization. While essential cw components, including microwave single-photon transistors and microwave-optical converters, have been explored, an all-optical cw single-photon transistor has remained a missing piece. We propose a high-efficiency, high-gain implementation using Rydberg atoms, in which a control photon disrupts the transmission of a continuous probe beam via the van der Waals interaction. This device completes the set of components required for cw processing of quantum signals and paves the way for all-optical processing at the quantum level.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2309.10873v2
+- Title: Continuous-wave quantum light control via engineered Rydberg-induced dephasing
+- Authors: Iason Tsiamis, Oleksandr Kyriienko, Anders S. Sørensen
+- Categories: quant-ph (primary); quant-ph; cond-mat.quant-gas
+- Links: abs=https://arxiv.org/abs/2309.10873v2  pdf=https://arxiv.org/pdf/2309.10873v2.pdf
+
+Abstract:
+We analyze several implementations of all-optical single-photon transistors (SPTs) operating in the continuous-wave (cw) regime, as presented in the companion paper [Phys. Rev. A 113, L011701 (2026)]. The devices rely on ensembles of Rydberg atoms interacting via van der Waals interactions. Under electromagnetically induced transparency (EIT), a weak probe field is fully transmitted through the atomic ensemble in the absence of control photons. Exciting a collective Rydberg state with a single control photon breaks the EIT condition, thereby strongly suppressing the probe transmission. We show how collective Rydberg interactions in an atomic ensemble, confined either in an optical cavity or in free space, give rise to two distinct probe-induced dephasing mechanisms. These processes localize the control excitations, extend their lifetimes, and increase the device efficiency. We characterize the SPTs in terms of control-photon absorption probability and probe gain, supported by numerical simulations of realistic one- and three-dimensional ensembles. The proposed cw devices complement previously demonstrated SPTs and broaden the toolbox of quantum light manipulation circuitry.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2405.20322v2
+- Title: Quantum generalizations of Glauber and Metropolis dynamics
+- Authors: András Gilyén, Chi-Fang Chen, Joao F. Doriguello, Michael J. Kastoryano
+- Categories: quant-ph (primary); quant-ph; cs.DS
+- Links: abs=https://arxiv.org/abs/2405.20322v2  pdf=https://arxiv.org/pdf/2405.20322v2.pdf
+
+Abstract:
+Classical Markov Chain Monte Carlo methods have been essential for simulating statistical physical systems and have proven well applicable to other systems with many degrees of freedom. Motivated by the statistical physics origins, Chen, Kastoryano, and Gilyén [CKG23] proposed a continuous-time quantum thermodynamic analogue to Glauber dynamics that is (i) exactly detailed balanced, (ii) efficiently implementable, and (iii) quasi-local for geometrically local systems. Physically, their construction resembles the dissipative dynamics arising from weak system-bath interaction. In this work, we give an efficiently implementable discrete-time counterpart to any continuous-time quantum Gibbs sampler. Our construction preserves the desirable features (i)-(iii) while does not decrease the spectral gap. Also, we give an alternative highly coherent quantum generalization of detailed balanced dynamics that resembles another physically derived master equation, and propose a smooth interpolation between this and earlier constructions. Moreover, we show how to make earlier Metropolis-style Gibbs samplers (which estimate energies both before and after jumps) exactly detailed balanced. We study generic properties of all constructions, including the uniqueness of the fixed point, the (quasi-)locality of the resulting operators. Finally, we prove that the spectral gap of our new highly coherent Gibbs sampler is constant at high temperatures, thereby it mixes fast. We hope that our systematic approach to quantum Glauber and Metropolis dynamics will lead to widespread applications in various domains.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2409.12932v3
+- Title: Entanglement-enhanced quantum sensing via optimal global control with neutral atoms in a cavity
+- Authors: Vineesha Srivastava, Sven Jandura, Gavin K Brennen, Guido Pupillo
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2409.12932v3  pdf=https://arxiv.org/pdf/2409.12932v3.pdf
+
+Abstract:
+We present a deterministic protocol for the preparation of entangled states in the symmetric Dicke subspace of $N$ spins coupled to a common cavity mode that prepares entangled states useful for quantum sensing, achieving a precision significantly better than the standard quantum limit in the presence of photon cavity loss, spontaneous emission and dephasing. The protocol combines a new geometric phase gate which can be utilized for exact unitary synthesis on the Dicke subspace, an analytic solution of the noisy quantum channel dynamics and optimal control methods. This work opens the way to entanglement-enhanced sensing with cold trapped atoms in cavities and is extendable to other spin systems coupled to a bosonic mode.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2411.10343v2
+- Title: Local Clustering Decoder as a fast and adaptive hardware decoder for the surface code
+- Authors: Abbas B. Ziad, Ankit Zalawadiya, Canberk Topal, Joan Camps, György P. Gehér, Matthew P. Stafford, Mark L. Turner
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2411.10343v2  pdf=https://arxiv.org/pdf/2411.10343v2.pdf
+
+Abstract:
+To avoid prohibitive overheads in performing fault-tolerant quantum computation, the decoding problem needs to be solved accurately and at speeds sufficient for fast feedback. Existing decoding systems fail to satisfy both of these requirements, meaning they either slow down the quantum computer or reduce the number of operations that can be performed before the quantum information is corrupted. We introduce the Local Clustering Decoder as a solution that simultaneously achieves the accuracy and speed requirements of a real-time decoding system. Our decoder is implemented on FPGAs and exploits hardware parallelism to keep pace with the fastest qubit types. Further, it comprises an adaptivity engine that allows the decoder to update itself in real-time in response to control signals, such as heralded leakage events. Under a realistic circuit-level noise model where leakage is a dominant error source, our decoder enables one million error-free quantum operations with 4x fewer physical qubits when compared to standard non-adaptive decoding. This is achieved whilst decoding in under 1 us per round with modest FPGA resources, demonstrating that high-accuracy real-time decoding is possible, and reducing the qubit counts required for large-scale fault-tolerant quantum computation.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2412.08724v2
+- Title: Separability Lindblad equation for dynamical open-system entanglement
+- Authors: Julien Pinske, Laura Ares, Benjamin Hinrichs, Martin Kolb, Jan Sperling
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2412.08724v2  pdf=https://arxiv.org/pdf/2412.08724v2.pdf
+
+Abstract:
+Providing entanglement for the design of quantum technologies in the presence of noise constitutes today's main challenge in quantum information science. A framework is required that assesses the build-up of entanglement in realistic settings. In this work, we put forth a new class of nonlinear quantum master equations in Lindblad form that unambiguously identify dynamical entanglement in open quantum systems via deviations from a separable evolution. This separability Lindblad equation restricts quantum trajectories to classically correlated states only. Unlike many conventional approaches, here the entangling capabilities of a process are not characterized by input-output relations, but separability is imposed at each instant of time. We solve these equations for crucial examples, thereby quantifying the dynamical impact of entanglement in non-equilibrium scenarios. Our results allow to benchmark the engineering of entangled states through dissipation. The separability Lindblad equation provides a unique path to characterizing quantum correlations caused by arbitrary system-bath interactions, specifically tailored for the noisy intermediate-scale quantum era.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2412.21118v3
+- Title: Efficient Approximate Degenerate Ordered Statistics Decoding for Quantum Codes via Reliable Subset Reduction
+- Authors: Ching-Feng Kung, Kao-Yueh Kuo, Ching-Yi Lai
+- Categories: quant-ph (primary); quant-ph; cs.IT
+- Links: abs=https://arxiv.org/abs/2412.21118v3  pdf=https://arxiv.org/pdf/2412.21118v3.pdf
+
+Abstract:
+Efficient and scalable decoding of quantum codes is essential for high-performance quantum error correction. In this work, we introduce Reliable Subset Reduction (RSR), a reliability-driven preprocessing framework that leverages belief propagation (BP) statistics to identify and remove highly reliable qubits, substantially reducing the effective problem size. Additionally, we identify a degeneracy condition that allows high-order OSD to be simplified to order-0 OSD. By integrating these techniques, we present an ADOSD algorithm that significantly improves OSD efficiency. Our BP+RSR+ADOSD framework extends naturally to circuit-level noise and can handle large-scale codes with more than $10^4$ error variables. Through extensive simulations, we demonstrate improved performance over MWPM and Localized Statistics Decoding for a variety of CSS and non-CSS codes under the code-capacity noise model, and for rotated surface codes under realistic circuit-level noise. At low physical error rates, RSR reduces the effective problem size to less than 5\%, enabling higher-order OSD with accelerated runtime. These results highlight the practical efficiency and broad applicability of the BP+ADOSD framework for both theoretical and realistic quantum error correction scenarios.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2504.08494v2
+- Title: Spin-state energetics of heme-related models with the variational quantum eigensolver
+- Authors: Unathi Skosana, Sthembiso Gumede, Mark Tame
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2504.08494v2  pdf=https://arxiv.org/pdf/2504.08494v2.pdf
+
+Abstract:
+We present numerical calculations of the energetic separation between different spin states (singlet, triplet and quintet) for a simplified model of a deoxy-myoglobin protein using the variational quantum eigensolver (VQE) algorithm. The goal is to gain insight into the workflow and challenges of VQE simulations for transition metal complexes, with emphasis on methodology over hardware-specific implementation. The numerical calculations are performed using an in-house statevector simulator with single- and multi-reference trial wavefunctions based on the k-unitary pair coupled-cluster generalized singles and doubles or k-UpCCGSD ansatz. The spin-state energetics for active spaces of increasing size up to 10 spatial orbitals (20 spin orbitals or qubits) are computed with VQE and were found to agree with the classical complete active self-consistent field or CASSCF method to within 1-4 kcal/mol. We evaluate relevant multi-reference diagnostics and show that the spin states computed with VQE possess a sufficient degree of multi-reference character to highlight the presence of strong electron correlation effects. Our numerical simulations show that in the ideal case, the VQE algorithm is capable of reproducing spin-state energetics of strongly correlated systems such as transition metal complexes for both single- and multi-reference trial wavefunctions, asymptotically achieving good agreement with results from classical methods as the number of active orbitals increases.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2504.13376v4
+- Title: Addressing the Minor-Embedding Problem in Quantum Annealing and Evaluating State-of-the-Art Algorithm Performance
+- Authors: Aitor Gomez-Tejedor, Eneko Osaba, Esther Villar-Rodriguez
+- Categories: quant-ph (primary); quant-ph; cs.AI; cs.ET
+- Links: abs=https://arxiv.org/abs/2504.13376v4  pdf=https://arxiv.org/pdf/2504.13376v4.pdf
+
+Abstract:
+This study addresses the minor-embedding problem, which involves mapping the variables of an Ising model onto a quantum annealing processor. The primary motivation stems from the observed performance disparity of quantum annealers when solving problems suited to the processor's architecture versus those with non-hardware-native topologies. Our research has two main objectives: i) to analyze the impact of embedding quality on the performance of D-Wave Systems quantum annealers, and ii) to evaluate the quality of the embeddings generated by Minorminer, the standard minor-embedding technique in the quantum annealing literature, provided by D-Wave. Regarding the first objective, our experiments reveal a clear correlation between the average chain length of embeddings and the relative errors of the solutions sampled. This underscores the critical influence of embedding quality on quantum annealing performance. For the second objective, we evaluate Minorminer's embedding capabilities, the quality and robustness of its embeddings, and its execution-time performance on Erdös-Rényi graphs. We also compare its performance with Clique Embedding, another algorithm developed by D-Wave, which is deterministic and designed to embed fully connected Ising models into quantum annealing processors, serving as a worst-case scenario. The results demonstrate that there is significant room for improvement for Minorminer, suggesting that more effective embedding strategies could lead to meaningful gains in quantum annealing performance.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2504.14651v2
+- Title: Exact Duality at Low Energy in a Josephson Tunnel Junction Coupled to a Transmission Line
+- Authors: Luca Giacomelli, Michel H. Devoret, Cristiano Ciuti
+- Categories: quant-ph (primary); quant-ph; cond-mat.mes-hall; cond-mat.supr-con
+- Links: abs=https://arxiv.org/abs/2504.14651v2  pdf=https://arxiv.org/pdf/2504.14651v2.pdf
+
+Abstract:
+We theoretically explore the low-energy behavior of a Josephson tunnel junction coupled to a finite-length, charge-biased transmission line and compare it to its flux-biased counterpart. For transmission lines of increasing length, we show that the low-energy charge-dependent energy bands of the charge-biased configuration can be exactly mapped onto those of the flux-biased system via a well-defined duality transformation of circuit parameters. In the limit of an infinitely long transmission line, the influence of boundary conditions vanishes, and both circuits reduce to a resistively shunted Josephson junction. This convergence reveals the system's intrinsic self-duality and critical behavior. Our exact formulation of charge-flux duality provides a foundation for generalizations to more complex superconductor-insulator phase transitions.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2504.21306v2
+- Title: Semiclassical Approach to Quantum Fisher Information
+- Authors: Mahdi RouhbakhshNabati, Daniel Braun, Henning Schomerus
+- Categories: quant-ph (primary); quant-ph; physics.optics
+- Links: abs=https://arxiv.org/abs/2504.21306v2  pdf=https://arxiv.org/pdf/2504.21306v2.pdf
+
+Abstract:
+Quantum sensors driven into the quantum chaotic regime can have dramatically enhanced sensitivity, which, however, depends intricately on the details of the underlying classical phase space. Here, we develop an accurate semiclassical approach that provides direct and efficient access to the phase-space-resolved quantum Fisher information (QFI), the central quantity that quantifies the ultimate achievable sensitivity. This approximation reveals, in very concrete terms, that the QFI is large whenever a specific dynamical quantity tied to the sensing parameter displays a large variance over the course of the corresponding classical time evolution. Applied to a paradigmatic system of quantum chaos, the kicked top, we show that the semiclassical description is accurate already for modest quantum numbers, i.e., deep in the quantum regime, and it extends seamlessly to very high quantum numbers that are beyond the reach of other methods.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2505.12990v3
+- Title: From Theory to Practice: Analyzing Variational Quantum Power Method for Quantum Optimization of QUBO Problems
+- Authors: Ammar Daskin
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2505.12990v3  pdf=https://arxiv.org/pdf/2505.12990v3.pdf
+
+Abstract:
+The variational quantum power method (VQPM), which adapts the classical power iteration algorithm for quantum settings, has shown promise for eigenvector estimation and optimization on quantum hardware. In this work, we provide a comprehensive theoretical and numerical analysis of VQPM by investigating its convergence, robustness, and qubit locking mechanisms. We present detailed strategies for applying VQPM to QUBO problems by leveraging these locking mechanisms. Based on the simulations for each strategy we have carried out, we give systematic guidelines for their practical applications. We also offer a numerical comparison with the quantum approximate optimization algorithm (QAOA) by running both algorithms on a set of trial problems and a simulation on noisy environments by using IBM Qiskit Aer simulation framework. Our results indicate that VQPM can be employed as an effective quantum optimization algorithm on quantum computers for QUBO problems, and this work can serve as an initial guideline for such applications.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2506.00647v3
+- Title: Quantum Skip Gates: Coherently Conditioned Subroutines in Iterative Quantum Algorithms
+- Authors: Kym Derriman
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2506.00647v3  pdf=https://arxiv.org/pdf/2506.00647v3.pdf
+
+Abstract:
+The Quantum Skip Gate (QSG) is a unitary circuit primitive that coherently superposes the execution and omission of an expensive quantum subroutine based on the outcome of a cheaper preceding subroutine, without mid-circuit measurement or loss of coherence. By using a control qubit and an internal flag, QSG enables conditional quantum logic entirely within a unitary framework. We demonstrate QSG experimentally in a Grover-style search on IBM quantum hardware with four data qubits and three Grover iterations, where it reduces costly subroutine calls by 9 to 25 percent and achieves 31 to 61 percent higher success-per-oracle efficiency relative to a fixed-order baseline. Noise-model simulations further confirm and strengthen these gains, reaching improvements of up to 45 percent when using an optimized swap-out design. These results show that coherently conditioned subroutines provide practical resource management, significantly reducing runtime cost and noise accumulation in near-term quantum algorithms.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2506.09037v2
+- Title: Optimizing Sparse SYK
+- Authors: Matthew Ding, Robbie King, Bobak T. Kiani, Eric R. Anschuetz
+- Categories: quant-ph (primary); quant-ph; cs.DS
+- Links: abs=https://arxiv.org/abs/2506.09037v2  pdf=https://arxiv.org/pdf/2506.09037v2.pdf
+
+Abstract:
+Finding the ground state of strongly-interacting fermionic systems is often the prerequisite for fully understanding both quantum chemistry and condensed matter systems. The Sachdev--Ye--Kitaev (SYK) model is a representative example of such a system; it is particularly interesting not only due to the existence of efficient quantum algorithms preparing approximations to the ground state such as Hastings--O'Donnell (STOC 2022), but also known no-go results for many classical ansatzes in preparing low-energy states. However, this quantum-classical separation is known to \emph{not} persist when the SYK model is sufficiently sparsified, i.e., when terms in the model are discarded with probability $1-p$, where $p=Θ(1/n^3)$ and $n$ is the system size. This raises the question of how robust the quantum and classical complexities of the SYK model are to sparsification.   In this work we initiate the study of the sparse SYK model where $p \in [Θ(1/n^3),1]$ and show there indeed exists a certain robustness of sparsification. We prove that with high probability, Gaussian states achieve only a $Θ(1/\sqrt{n})$-factor approximation to the true ground state energy of sparse SYK for all $p\geqΩ(\log n/n^2)$, and that Gaussian states cannot achieve constant-factor approximations unless $p \leq O(\log^2 n/n^3)$. Additionally, we prove that the quantum algorithm of Hastings--O'Donnell still achieves a constant-factor approximation to the ground state energy when $p\geqΩ(\log n/n)$. Combined, these show a provable separation between classical algorithms outputting Gaussian states and efficient quantum algorithms for the goal of finding approximate sparse SYK ground states whenever $p \geq Ω(\log n/n)$, extending the analogous $p=1$ result of Hastings--O'Donnell.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2506.13332v2
+- Title: Efficient algorithms for quantum chemistry on modular quantum processors
+- Authors: Tian Xue, Jacob P. Covey, Matthew Otten
+- Categories: quant-ph (primary); quant-ph; physics.atom-ph; physics.chem-ph
+- Links: abs=https://arxiv.org/abs/2506.13332v2  pdf=https://arxiv.org/pdf/2506.13332v2.pdf
+
+Abstract:
+Quantum chemistry is a promising application of future quantum computers, but the requirements on qubit count and other resources suggest that modular computing architectures will be required. We introduce an implementation of a quantum chemistry algorithm that is distributed across several computational modules: the distributed unitary selective coupled cluster (dUSCC). We design a packing scheme using the pseudo-commutativity of Trotterization to maximize the parallelism while optimizing the scheduling of all inter-module gates around the buffering of inter-module Bell pairs. We demonstrate dUSCC on a 3-cluster (H$_4$)$_3$ chain and show that it naturally utilizes the molecule's structure to reduce inter-module latency. We show that the run time of dUSCC is unchanged with inter-module latency up to $\sim$20$\times$ slower than intra-module gates in the (H$_4$)$_3$ while maintaining chemical accuracy. dUSCC should be "free" in the weakly entangled systems, and the existence of "free" dUSCC can be found efficiently using classical algorithms. This new compilation scheme both leverages pseudo-commutativity and considers inter-module gate scheduling, and potentially provides an efficient distributed compilation of other Trotterized algorithms.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2507.08358v2
+- Title: Complexity of mixed Schatten norms of quantum maps
+- Authors: Jan Kochanowski, Omar Fawzi, Cambyse Rouzé
+- Categories: quant-ph (primary); quant-ph; math-ph
+- Links: abs=https://arxiv.org/abs/2507.08358v2  pdf=https://arxiv.org/pdf/2507.08358v2.pdf
+
+Abstract:
+We study the complexity of computing the mixed Schatten $\|Φ\|_{q\to p}$ norms of linear maps $Φ$ between matrix spaces. When $Φ$ is completely positive, we show that $\| Φ\|_{q \to p}$ can be computed efficiently when $q \geq p$. The regime $q \geq p$ is known as the non-hypercontractive regime and is also known to be easy for the mixed vector norms $\ell_{q} \to \ell_{p}$ [Boyd, 1974]. However, even for entanglement-breaking completely-positive trace-preserving maps $Φ$, we show that computing $\| Φ\|_{1 \to p}$ is $\mathsf{NP}$-complete when $p>1$. Moving beyond the completely-positive case and considering $Φ$ to be difference of entanglement breaking completely-positive trace-preserving maps, we prove that computing $\| Φ\|^+_{1 \to 1}$ is $\mathsf{NP}$-complete. In contrast, for the completely-bounded (cb) case, we describe a polynomial-time algorithm to compute $\|Φ\|_{cb,1\to p}$ and $\|Φ\|^+_{cb,1\to p}$ for any linear map $Φ$ and $p\geq1$.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2507.18984v2
+- Title: Scalable native multiqubit gates via engineered noncomputational-state interactions in superconducting fluxonium qubits
+- Authors: Peng Zhao, Peng Xu, Zheng-Yuan Xue
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2507.18984v2  pdf=https://arxiv.org/pdf/2507.18984v2.pdf
+
+Abstract:
+Native multiqubit gates could be essential for bridging the gap from current noisy devices to future utility-scale quantum computers, as they can substantially reduce circuit depth for near-term applications on noisy devices and may also lower the physical overhead of fault-tolerant quantum computation. Here we introduce a scalable protocol for implementing native multi-controlled gates on fluxonium qubits, supporting an arbitrary number of control qubits ($N > 1$) while remaining compatible with existing single- and two-qubit gate realizations. Our approach leverages engineered interactions in noncomputational state manifolds to enable qubit-state selective transitions, which is activated for the direct implementation of $(C^{\otimes N})Z$ gates. We show that in square lattices with fluxonium qubits, $CCZ$, $CCCZ$, and $CCCCZ$ gates with errors around 0.01 (0.001) are achievable, with gate lengths of $50\,(100)\,\text{ns}$, $100\,(250)\,\text{ns}$, and $150\,(300)\,\text{ns}$, respectively. Looking forward, integrating these native multi-controlled gates with primitive single- and two-qubit gate sets within a single quantum processor could significantly enhance flexibility in circuit synthesis and offer a promising alternative pathway toward utility-scale quantum computing.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2508.02638v2
+- Title: Anticipating Decoherence for Enhancing Coherence in Quantum Systems
+- Authors: Pranshu Maan, Yuheng Chen, Sean Borneman, Benjamin Lawrie, Alexander Puretzky, Hadiseh Alaeian, Alexandra Boltasseva, Vladimir M. Shalaev, et al.
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2508.02638v2  pdf=https://arxiv.org/pdf/2508.02638v2.pdf
+
+Abstract:
+Large-scale quantum systems require optical coherence between distant quantum devices, necessitating spectral indistinguishability. Scalable solid-state platforms offer promising routes to this goal. However, environmental disorders, including dephasing, spectral diffusion, and spin-bath interactions, influence the emitters' spectra and deteriorate the coherence. Using statistical theory, we identify correlations in spectral diffusion from slowly varying environmental coupling, revealing predictable dynamics extendable to other disorders. Importantly, this could enable the development of an anticipatory framework for forecasting and decoherence engineering in remote quantum emitters. To validate this framework, we demonstrate that a machine learning model trained on limited data can accurately forecast unseen spectral behavior. Realization of such a model on distinct quantum emitters could reduce the spectral shift by factors $\approx$ 2.1 to 15.8, depending on emitter stability, compared to no prediction. This work presents, for the first time, the application of anticipatory systems and replica theory to quantum technology, along with the first experimental demonstration of internal prediction that generalizes across multiple quantum emitters. These results pave the way for real-time decoherence engineering in scalable quantum systems. Such capability could lead to enhanced optical coherence and multi-emitter synchronization, with broad implications for quantum communication, computation, imaging, and sensing.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2508.10500v2
+- Title: Reservoir-Engineered Mechanical Cat States with a Driven Qubit
+- Authors: M. Tahir Naseem
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2508.10500v2  pdf=https://arxiv.org/pdf/2508.10500v2.pdf
+
+Abstract:
+Macroscopic quantum superpositions, such as mechanical Schrödinger cat states, are central to emerging quantum technologies in sensing and bosonic error-correcting codes. We propose a scheme to generate such states by coupling a nanomechanical resonator to a coherently driven two-level system via both transverse and longitudinal interactions. Driving the qubit at twice the oscillator frequency activates resonant two-phonon exchange processes, enabling coherent conversion of drive energy into phonon pairs and their dissipative stabilization. Starting from the full time-dependent Hamiltonian, we derive an effective master equation for the mechanical mode by perturbative elimination of the lossy qubit. The reduced dynamics feature engineered two-phonon loss and a coherent squeezing term, which together drive the resonator into a deterministic Schrödinger-cat state. Our approach requires only a single driven qubit and no auxiliary cavity, offering a scalable and experimentally accessible route to macroscopic quantum superpositions in circuit-QED and related platforms.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2510.08463v2
+- Title: Approximating quantum states by states of low rank
+- Authors: Nathaniel Johnston, Chi-Kwong Li
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2510.08463v2  pdf=https://arxiv.org/pdf/2510.08463v2.pdf
+
+Abstract:
+Given a positive integer k, it is natural to ask for a formula for the distance between a given density matrix (i.e., mixed quantum state) and the set of density matrices of rank at most k. This problem has already been solved when "distance" is measured in the trace or Frobenius norm. We solve it for all other unitary similarity invariant norms. We also present some consequences of our formula. For example, in the trace and Frobenius norms, the density matrix that is farthest from the set of low-rank density matrices is the maximally-mixed state, but this is not true in many other unitary similarity invariant norms.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2510.08533v2
+- Title: Fast Mixing of Quantum Spin Chains at All Temperatures
+- Authors: Thiago Bergamaschi, Chi-Fang Chen
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2510.08533v2  pdf=https://arxiv.org/pdf/2510.08533v2.pdf
+
+Abstract:
+It is shown that every one-dimensional Hamiltonian with short-range interaction admits a quantum Gibbs sampler [CKG23] with a system-size independent spectral gap at all finite temperatures. Consequently, their Gibbs states can be prepared in polylogarithmic depth, and satisfy exponential clustering of correlations, generalizing [Ara69].
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2510.16962v2
+- Title: 28 GHz Wireless Channel Characterization for a Quantum Computer Cryostat at 4 Kelvin
+- Authors: Ama Bandara, Viviana Centritto Arrojo, Heqi Deng, Masoud Babaie, Fabio Sebastiano, Edoardo Charbon, Evgenii Vinogradov, Eduard Alarcon, et al.
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2510.16962v2  pdf=https://arxiv.org/pdf/2510.16962v2.pdf
+
+Abstract:
+The scalability of quantum computing systems is constrained by the wiring complexity and thermal load introduced by dense wiring for control, readout and synchronization at cryogenic temperatures. To address this challenge, we explore the feasibility of wireless communication within a cryostat for a multi-core quantum computer, focusing on wireless channel characterization at cryogenic temperatures. We propose to place on-chip differential dipole antennas within the cryostat, designed to operate at 28 GHz in temperatures as low as 4 K. We model the antennas inside a realistic cryostat and, using full-wave electromagnetic simulations, we analyze impedance matching, spatial field distribution, and energy reverberation due to metallic structures. The wireless channel is characterized through measured channel impulse response (CIR) across multiple receiver antenna positions. The results demonstrate potential for reliable shortrange communication with high Signal-to-Noise Ratio (SNR) and limited sensitivity to positional variation, at the cost of nonnegligible delay spread, due to significant multipath effects.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2510.26189v4
+- Title: Practical hybrid decoding scheme for parity-encoded spin systems
+- Authors: Yoshihiro Nambu
+- Categories: quant-ph (primary); quant-ph; cs.IT
+- Links: abs=https://arxiv.org/abs/2510.26189v4  pdf=https://arxiv.org/pdf/2510.26189v4.pdf
+
+Abstract:
+We propose a practical hybrid decoding scheme for the parity-encoding architecture. This architecture was first introduced by N. Sourlas as a computational technique for tackling hard optimization problems, especially those modeled by spin systems such as the Ising model and spin glasses, and reinvented by W. Lechner, P. Hauke, and P. Zoller to develop quantum annealing devices. We study the specific model, called the SLHZ model, aiming to achieve a near-term quantum annealing device implemented solely through geometrically local spin interactions. Taking account of the close connection between the SLHZ model and a classical low-density-parity-check code, two approaches can be chosen for the decoding: (1) finding the ground state of a spin Hamiltonian derived from the SLHZ model, which can be achieved via stochastic decoders such as a quantum annealer or a classical Monte Carlo sampler; (2) using deterministic decoding techniques for the classical LDPC code, such as belief propagation and bit-flip decoder. The proposed hybrid approach combines the two approaches by applying bit-flip decoding to the readout of the stochastic decoder based on the SLHZ model. We present simulations demonstrating that this approach can reveal the latent potential of the SLHZ model, realizing soft-annealing concept proposed by Sourlas.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2510.26612v2
+- Title: Discrete time quantum walk of locally interacting walkers
+- Authors: Vikash Mittal, Tomasz Sowiński
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2510.26612v2  pdf=https://arxiv.org/pdf/2510.26612v2.pdf
+
+Abstract:
+In this work, we introduce a general form of a two-parameter family of local interactions between quantum walkers conditioned on the internal state of their coins. By choosing their particular case, we systematically study the impact of these interactions on the dynamics of two initially localized and noncorrelated walkers. Our general interaction framework, which reduces to several previously studied models as special cases, provides a versatile platform for engineering quantum correlations with applications in quantum simulation, state preparation, and sensing protocols. It also opens up the possibility of analyzing many-body interactions for larger numbers of walkers.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2511.01988v2
+- Title: Entropy-based random quantum states
+- Authors: Harry J. D. Miller
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2511.01988v2  pdf=https://arxiv.org/pdf/2511.01988v2.pdf
+
+Abstract:
+In quantum information geometry, the curvature of von-Neumann entropy and relative entropy induce a natural metric on the space of mixed quantum states. Here we use this information metric to construct a random matrix ensemble for states and investigate its key statistical properties such as the asymptotic eigenvalue density and mean entropy. We present an algorithm for generating these entropy-based random density matrices, thus providing a new recipe for random state generation that differs from the well established Hilbert-Schmidt and Bures-Hall ensemble approaches. We also prove a duality between the entropy-based state ensemble and a random Hamiltonian model constructed from the thermodynamic length over the set of Gibbs states. This Hamiltonian model is found to display Wigner level repulsion, implying that the dual state ensemble can be realised as a random Gibbs state with respect to a class of chaotic Hamiltonians. As an application we use our model to compute the survival probability of a randomly evolved thermofield double state, predicting a ramp and plateau over time that is characteristic of quantum chaos. For other applications, the entropy-based ensemble can be used as an uninformative prior for Bayesian quantum state or Hamiltonian tomography.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2511.03537v3
+- Title: Mutually Unbiased Bases and Orthogonal Latin Squares -- version 3
+- Authors: Stefan Joka
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2511.03537v3  pdf=https://arxiv.org/pdf/2511.03537v3.pdf
+
+Abstract:
+In this paper, we prove that the existence of a complete set of mutually unbiased bases (MUBs) in N-dimensional Hilbert space implies the existence of a complete set of mutually orthogonal Latin squares (MOLSs) of order N. In particular, we prove that a complete set of MUBs does not exist in dimension six (the first dimension which is not a power of prime).
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2511.07769v3
+- Title: Local spreading of stabilizer Rényi entropy in a brickwork random Clifford circuit
+- Authors: Somnath Maity, Ryusuke Hamazaki
+- Categories: quant-ph (primary); quant-ph; cond-mat.stat-mech
+- Links: abs=https://arxiv.org/abs/2511.07769v3  pdf=https://arxiv.org/pdf/2511.07769v3.pdf
+
+Abstract:
+Nonstabilizerness, or magic, constitutes a fundamental resource for quantum computation and a crucial ingredient for quantum advantage. Recent progress has substantially advanced the characterization of magic in many-body quantum systems, with stabilizer Rényi entropy (SRE) emerging as a computable and experimentally accessible measure. In this work, we investigate the spreading of SRE in terms of single-qubit reduced density matrices, where an initial product state that contains magic in a local region evolves under brickwork random Clifford circuits. For the case with Haar-random local Clifford gates, we find that the spreading profile exhibits a diffusive structure within a ballistic light cone when viewed through a normalized version of single-qubit SRE, despite the absence of explicit conserved charges. We further examine the robustness of this non-ballistic behavior of the normalized single-qubit SRE spreading by extending the analysis to a restricted Clifford circuit, where we unveil a superdiffusive spreading. Finally, we discuss that a similar non-ballistic spreading within the light cone is found for another indicator of the magic, i.e., the robustness of magic.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2511.12176v2
+- Title: Reinforcement Learning for Charging Optimization of Inhomogeneous Dicke Quantum Batteries
+- Authors: Xiaobin Song, Siyuan Bai, Da-Wei Wang, Hanxiao Tao, Xizhe Wang, Rebing Wu, Benben Jiang
+- Categories: quant-ph (primary); quant-ph; cs.AI
+- Links: abs=https://arxiv.org/abs/2511.12176v2  pdf=https://arxiv.org/pdf/2511.12176v2.pdf
+
+Abstract:
+Charging optimization is a key challenge to the implementation of quantum batteries, particularly under inhomogeneity and partial observability. This paper employs reinforcement learning to optimize piecewise-constant charging policies for an inhomogeneous Dicke battery. We systematically compare policies across four observability regimes, from full-state access to experimentally accessible observables (energies of individual two-level systems (TLSs), first-order averages, and second-order correlations). Simulation results demonstrate that full observability yields near-optimal ergotropy with low variability, while under partial observability, access to only single-TLS energies or energies plus first-order averages lags behind the fully observed baseline. However, augmenting partial observations with second-order correlations recovers most of the gap, reaching 94%-98% of the full-state baseline. The learned schedules are nonmyopic, trading temporary plateaus or declines for superior terminal outcomes. These findings highlight a practical route to effective fast-charging protocols under realistic information constraints.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2511.17223v2
+- Title: Faithful real embedding of a three-dimensional complex Kochen-Specker configuration
+- Authors: Andrei Khrennikov, Karl Svozil
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2511.17223v2  pdf=https://arxiv.org/pdf/2511.17223v2.pdf
+
+Abstract:
+We describe a phase-adjusted realification procedure that embeds any finite set of rays in C^3 into R^3. By assigning an appropriate phase to each ray before applying the standard coordinate-wise map, we can arrange that two rays are orthogonal in C^3 if and only if their images are orthogonal in R^6, so the construction yields a faithful orthogonal representation of the original complex configuration. As a concrete example, we consider the 165 projectively distinct rays used in a C^3 Kochen-Specker configuration obtained from mutually unbiased bases, list these 165 rays explicitly in C^3, and give for each of them its image in R^6 under the canonical realification map. We also note that, because the original 3-element contexts are no longer maximal in R^6, the embedded configuration admits two-valued states even though its realisation with maximal contexts in C^3 is Kochen-Specker uncolourable.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2512.07908v3
+- Title: Symmetry-Based Quantum Codes Beyond the Pauli Group
+- Authors: Zachary P. Bradshaw, Margarite L. LaBorde, Dillon Montero
+- Categories: quant-ph (primary); quant-ph; math-ph
+- Links: abs=https://arxiv.org/abs/2512.07908v3  pdf=https://arxiv.org/pdf/2512.07908v3.pdf
+
+Abstract:
+Typical stabilizer codes aim to solve the general problem of fault-tolerance without regard for the structure of a specific system. By incorporating a broader representation-theoretic perspective, we provide a generalized framework that allows the code designer to take this structure into account. For any representation of a finite group, we produce a quantum code with a code space invariant under the group action, providing passive error mitigation against errors belonging to the image of the representation. Furthermore, errors outside this scope are detected and diagnosed by performing a projective measurement onto the isotypic components corresponding to irreducible representations of the chosen group, effectively generalizing syndrome extraction to symmetry-resolved quantum measurements. We show that all stabilizer codes are a special case of this construction, including qudit stabilizer codes, and show that there is a natural one logical qubit code associated to the dihedral group. Thus we provide a unifying framework for existing codes while simultaneously facilitating symmetry-aware codes tailored to specific systems.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2512.08540v2
+- Title: Tunable passive squeezing of squeezed light through unbalanced double homodyne detection
+- Authors: Niels Tripier-Mondancin, David Barral, Ganaël Roeland, Raúl Leonardo Rincon Celis, Yann Bouchereau, Nicolas Treps
+- Categories: quant-ph (primary); quant-ph; physics.optics
+- Links: abs=https://arxiv.org/abs/2512.08540v2  pdf=https://arxiv.org/pdf/2512.08540v2.pdf
+
+Abstract:
+The full characterization of quantum states of light is a central task in quantum optics and information science. Double homodyne detection provides a powerful method for the direct measurement of the Husimi Q quasi-probability distribution, offering a complete state representation in a simple experimental setting and a limited time frame. Here, we demonstrate that double homodyne detection can serve as more than a passive characterization tool. By intentionally unbalancing the input beamsplitter that splits the quantum signal, we show that the detection scheme itself performs an effective squeezing or anti-squeezing transformation on the state being measured. The resulting measurement directly samples the Q function of the input state as if it were acted upon by a squeezing operator whose strength is a tunable experimental parameter: the beamsplitter's reflectivity. We experimentally realize this technique using a robust polarization-encoded double homodyne detection to characterize a squeezed vacuum state. Our results demonstrate the controlled deformation of the measured Q function's phase-space distribution, confirming that unbalanced double homodyne detection is a versatile tool for simultaneous quantum state manipulation and characterization.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2512.08921v3
+- Title: Autonomous multi-ion optical clock with on-chip integrated photonic light delivery
+- Authors: Tharon D. Morrison, Joonhyuk Kwon, Matthew A. Delaney, Michael Gehl, David R. Leibrandt, Daniel Stick, Hayden J. McGuinness
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2512.08921v3  pdf=https://arxiv.org/pdf/2512.08921v3.pdf
+
+Abstract:
+Integrated photonics in trapped-ion systems are critical for the realization of applications such as portable optical atomic clocks and scalable quantum computers. However, system-level integration of all required functionalities remains a key challenge. In this work, we demonstrate an autonomously operating optical clock having a short-term frequency instability of $3.14(5)\times 10^{-14} / \sqrtτ$ using an ensemble of four $^{171}\textrm{Yb}^{+}$ ions trapped in a multi-site surface-electrode trap at room temperature. All clock operations are performed with light delivered via on-chip waveguides. We showcase the system's resilience through sustained, autonomous operation featuring automated ion shuttling and reloading to mitigate ion loss during interleaved clock measurements. This work paves the way beyond component-level functionality to establish a viable and robust architecture for the next generation of portable, multi-ion quantum sensors and computers.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2512.11499v2
+- Title: FRQI Pairs method for image classification using Quantum Recurrent Neural Network
+- Authors: Rafał Potempa, Michał Kordasz, Sundas Naqeeb Khan, Krzysztof Werner, Kamil Wereszczyński, Krzysztof Simiński, Krzysztof A. Cyran
+- Categories: quant-ph (primary); quant-ph; cs.LG
+- Links: abs=https://arxiv.org/abs/2512.11499v2  pdf=https://arxiv.org/pdf/2512.11499v2.pdf
+
+Abstract:
+This study aims to introduce the FRQI Pairs method to a wider audience, a novel approach to image classification using Quantum Recurrent Neural Networks (QRNN) with Flexible Representation for Quantum Images (FRQI). The study highlights an innovative approach to use quantum encoded data for an image classification task, suggesting that such quantum-based approaches could significantly reduce the complexity of quantum algorithms. Comparison of the FRQI Pairs method with contemporary techniques underscores the promise of integrating quantum computing principles with neural network architectures for the development of quantum machine learning.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2512.23469v2
+- Title: Anisotropic Quantum Annealing vs Trit Annealing
+- Authors: M. Haider Akbar, Özgür E. Müstecaplıoğlu
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2512.23469v2  pdf=https://arxiv.org/pdf/2512.23469v2.pdf
+
+Abstract:
+Quantum annealing offers a promising strategy for solving complex optimization problems by encoding the solution into the ground state of a problem Hamiltonian. While most implementations rely on spin-$1/2$ systems, we explore the performance of quantum annealing on a spin-$1$ system where the problem Hamiltonian includes a single ion anisotropy term of the form $D\sum (S^z)^2$. Our results reveal that for a suitable range of the anisotropy strength $D$, the spin-$1$ annealer reaches the ground state with higher fidelity. We attribute this performance to the presence of the intermediate spin level and the tunable anisotropy, which together enable the algorithm to traverse the energy landscape through smaller, incremental steps instead of a single large spin flip. This mechanism effectively lowers barriers in the configuration space and stabilizes the evolution. These findings suggest that higher spin annealers offer intrinsic advantages for robust and flexible quantum optimization, especially for problems naturally formulated with ternary decision variables.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.00266v2
+- Title: Nature is stingy: Universality of Scrooge ensembles in quantum many-body systems
+- Authors: Wai-Keong Mok, Tobias Haug, Wen Wei Ho, John Preskill
+- Categories: quant-ph (primary); quant-ph; cond-mat.stat-mech; math-ph
+- Links: abs=https://arxiv.org/abs/2601.00266v2  pdf=https://arxiv.org/pdf/2601.00266v2.pdf
+
+Abstract:
+Recent advances in quantum simulators allow direct experimental access to ensembles of pure states generated by measuring part of an isolated quantum many-body system. These projected ensembles encode fine-grained information beyond thermal expectation values and provide a new window into quantum thermalization. In chaotic dynamics, projected ensembles exhibit universal statistics governed by maximum-entropy principles, known as deep thermalization. At infinite temperature this universality is characterized by Haar-random ensembles. More generally, physical constraints such as finite temperature or conservation laws lead to Scrooge ensembles, which are maximally entropic distributions of pure states consistent with these constraints. Here we introduce Scrooge $k$-designs, which approximate Scrooge ensembles, and use this framework to sharpen the conditions under which Scrooge-like behavior emerges. We first show that global Scrooge designs arise from long-time chaotic unitary dynamics alone, without measurements. Second, we show that measuring a complementary subsystem of a scrambled global state drawn from a global Scrooge $2k$-design induces a local Scrooge $k$-design. Third, we show that a local Scrooge $k$-design arises from an arbitrary entangled state when the complementary system is measured in a scrambled basis induced by a unitary drawn from a Haar $2k$-design. These results show that the resources required to generate approximate Scrooge ensembles scale only with the desired degree of approximation, enabling efficient implementations. Complementing our analytical results, numerical simulations identify coherence, entanglement, non-stabilizerness, and information scrambling as essential ingredients for the emergence of Scrooge-like behavior. Together, our findings advance theoretical explanations for maximally entropic, information-stingy randomness in quantum many-body systems.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2601.02150v2
+- Title: Quantum Extreme Reservoir Computing for Phase Classification of Polymer Alloy Microstructures
+- Authors: Arisa Ikeda, Akitada Sakurai, Kae Nemoto, Mayu Muramatsu
+- Categories: quant-ph (primary); quant-ph; cond-mat.mtrl-sci
+- Links: abs=https://arxiv.org/abs/2601.02150v2  pdf=https://arxiv.org/pdf/2601.02150v2.pdf
+
+Abstract:
+Quantum machine learning (QML) is expected to offer new opportunities to process high-dimensional data efficiently by exploiting the exponentially large state space of quantum systems. In this work, we apply quantum extreme reservoir computing (QERC) to the classification of microstructure images of polymer alloys generated using self-consistent field theory (SCFT). While previous QML efforts have primarily focused on benchmark datasets such as MNIST, our work demonstrates the applicability of QERC to engineering data with direct materials relevance. Through numerical experiments, we examine the influence of key computational parameters-including the number of qubits, sampling cost (the number of measurement shots), and reservoir configuration-on classification performance. The resulting phase classifications are depicted as phase diagrams that illustrate the phase transitions in polymer morphology, establishing an understandable connection between quantum model outputs and material behavior. These results illustrate QERC performance on realistic materials datasets and suggest practical guidelines for quantum encoder design and model generalization. This work establishes a foundation for integrating quantum learning techniques into materials informatics.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2311.12718v3
+- Title: Hybrid III-V/Silicon Quantum Photonic Device Generating Broadband Entangled Photon Pairs
+- Authors: J. Schuhmann, L. Lazzari, M. Morassi, A. Lemaitre, I. Sagnes, G. Beaudoin, M. I. Amanti, F. Boeuf, et al.
+- Categories: physics.optics (primary); physics.optics; cond-mat.mes-hall; quant-ph
+- Links: abs=https://arxiv.org/abs/2311.12718v3  pdf=https://arxiv.org/pdf/2311.12718v3.pdf
+
+Abstract:
+The demand for integrated photonic chips combining the generation and manipulation of quantum states of light is steadily increasing, driven by the need for compact and scalable platforms for quantum information technologies. While photonic circuits with diverse functionalities are being developed in different single material platforms, it has become crucial to realize hybrid photonic circuits that harness the advantages of multiple materials while mitigating their respective weaknesses, resulting in enhanced capabilities. Here, we demonstrate a hybrid III-V/Silicon quantum photonic device combining the strong second-order nonlinearity and direct bandgap of the III-V semiconductor platform with the high maturity and CMOS compatibility of the silicon photonic platform. Our device embeds the spontaneous parametric down-conversion (SPDC) of photon pairs into an AlGaAs source and their vertical routing to an adhesively-bonded silicon-on-insulator circuitry, within an evanescent coupling scheme managing both polarization states. This enables the on-chip generation of broadband (> 40 nm) telecom photons by type 0 and type 2 SPDC from the hybrid device, at room temperature and with internal pair generation rates exceeding $10^5$ $s^{-1}$ for both types, while the pump beam is strongly rejected. Two-photon interference with 92% visibility (and up to 99% upon 5 nm spectral filtering) proves the high energy-time entanglement quality of the produced quantum state, thereby enabling a wide range of quantum information applications on-chip, within an hybrid architecture compliant with electrical pumping and merging the assets of two mature and highly complementary platforms in view of out-of-the-lab deployment of quantum technologies.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2412.07676v4
+- Title: Bootstrapping, autonomous testing, and initialization system for Si/Si$_x$Ge$_{1-x}$ multi-quantum-dot devices
+- Authors: Tyler J. Kovach, Daniel Schug, M. A. Wolfe, E. R. MacQuarrie, Patrick J. Walsh, Owen M. Eskandari, Jared Benson, Mark Friesen, et al.
+- Categories: cond-mat.mes-hall (primary); cond-mat.mes-hall; cs.CV; cs.ET; quant-ph
+- Links: abs=https://arxiv.org/abs/2412.07676v4  pdf=https://arxiv.org/pdf/2412.07676v4.pdf
+
+Abstract:
+Semiconductor quantum dot (QD) devices have become central to advancements in spin-based quantum computing. However, the increasing complexity of modern QD devices makes calibration and control -- particularly at elevated temperatures -- a bottleneck to progress, highlighting the need for robust and scalable autonomous solutions. A major hurdle arises from trapped charges within the oxide layers, which induce random offset voltage shifts on gate electrodes, with a standard deviation of approximately 83 mV of variation within state-of-the-art present-day devices. Efficient characterization and tuning of large arrays of QD qubits depend on choices of automated protocols. Here, we introduce a physically intuitive framework for a bootstrapping, autonomous testing, and initialization system (BATIS) designed to streamline QD device evaluation and calibration. BATIS navigates high-dimensional gate voltage spaces, automating essential steps such as leakage testing, formation of all current channels, and gate characterization in the presence of trapped charges. For forming the current channels, BATIS follows a non-standard approach that requires a single set of measurements regardless of the number of channels. Demonstrated at 1.3 K on a quad-QD Si/Si$_x$Ge$_{1-x}$ device, BATIS eliminates the need for deep cryogenic environments during initial device diagnostics, significantly enhancing scalability and reducing setup times. By requiring only minimal prior knowledge of the device architecture, BATIS represents a platform-agnostic solution, adaptable to various QD systems, which bridges a critical gap in QD autotuning.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2501.12744v2
+- Title: Bright and pure single-photon source in a silicon chip by nanoscale positioning of a color center in a microcavity
+- Authors: Baptiste Lefaucher, Yoann Baron, Jean-Baptiste Jager, Vincent Calvo, Christian Elsässer, Giuliano Coppola, Frédéric Mazen, Sébastien Kerdilès, et al.
+- Categories: physics.optics (primary); physics.optics; quant-ph
+- Links: abs=https://arxiv.org/abs/2501.12744v2  pdf=https://arxiv.org/pdf/2501.12744v2.pdf
+
+Abstract:
+We present an all-silicon source of near-infrared linearly-polarized single photons, fabricated by nanoscale positioning of a color center in a silicon-on-insulator microcavity. The color center consists of a single W center, created at a well-defined position by Si$^{+}$ ion implantation through a 150 nm-diameter nanohole in a mask. A circular Bragg grating cavity resonant with the W's zero-phonon line at 1217 nm is fabricated at the same location as the nanohole. By Purcell enhancement of zero-phonon emission, we obtain a photon count rate of $1.29 \pm 0.01$ Mcounts/s at saturation under above-gap continuous-wave excitation with a Debye-Waller factor of $98.6\pm1.4 \%$. A clean photon antibunching behavior is observed up to pump powers ensuring saturation of the W's emission ($g^{(2)}(0)=0.06\pm0.02$ at $P=9.2P_{sat}$), evidencing that the density of additional parasitic fluorescent defects is very low. We also demonstrate the triggered emission of single photons with $93\pm2 \%$ purity under weak pulsed laser excitation. At high pulsed laser power, we reveal a detrimental effect of repumping processes, that could be mitigated using selective pumping schemes in the future. These results represent a major step towards on-demand sources of indistinguishable near-infrared single photons within silicon photonics chips.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2504.07508v3
+- Title: Parton Distribution Functions in the Schwinger model from Tensor Network States
+- Authors: Mari Carmen Bañuls, Krzysztof Cichy, C. -J. David Lin, Manuel Schneider
+- Categories: hep-lat (primary); hep-lat; hep-ph; hep-th; physics.comp-ph; quant-ph
+- Links: abs=https://arxiv.org/abs/2504.07508v3  pdf=https://arxiv.org/pdf/2504.07508v3.pdf
+
+Abstract:
+Parton distribution functions (PDFs) describe the inner, non-perturbative structure of hadrons. Their computation involves matrix elements with a Wilson line along a direction on the light cone, posing significant challenges in Euclidean lattice calculations, where the time direction is not directly accessible. We propose implementing the light-front Wilson line within the Hamiltonian formalism using tensor network techniques. The approach is demonstrated in the massive Schwinger model (quantum electrodynamics in 1+1 dimensions), a toy model that shares key features with quantum chromodynamics. We present accurate continuum results for the fermion PDF of the vector meson at varying fermion masses, obtained from first-principle calculations directly in Minkowski space. Our strategy also provides a useful path for quantum simulations and quantum computing.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2505.05174v2
+- Title: Steady-state heat engines driven by finite reservoirs
+- Authors: Iago N. Mamede, Saulo V. Moreira, Mark T. Mitchison, Carlos E. Fiore
+- Categories: cond-mat.stat-mech (primary); cond-mat.stat-mech; cond-mat.other; quant-ph
+- Links: abs=https://arxiv.org/abs/2505.05174v2  pdf=https://arxiv.org/pdf/2505.05174v2.pdf
+
+Abstract:
+We provide a consistent thermodynamic analysis of stochastic thermal engines driven by finite-size reservoirs, which are in turn coupled to infinite-size reservoirs. We consider a cyclic operation mode, where the working medium couples sequentially to hot and cold reservoirs, and a continuous mode with both reservoirs coupled simultaneously. We derive an effective temperature for the finite-size reservoirs determining the entropy production for two-state engines in the sequential coupling scenario, and show that finite-size reservoirs can meaningfully affect the power when compared to infinite-size reservoirs in both sequential and simultaneous coupling scenarios. We also investigate a three-state engine comprising two interacting units and optimize its performance in the presence of a finite reservoir. Notably, we show that the efficiency at maximum power can exceed the Curzon-Ahlborn bound with finite reservoirs. Our work introduces tools to optimize the performance of nanoscale engines under realistic conditions of finite reservoir heat capacity and imperfect thermal isolation.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2509.05942v2
+- Title: Theoretical Proposal of a Digital Closed-Loop Thermal Atomic-Beam Interferometer for High-Bandwidth, Wide-Dynamic-Range, and Simultaneous Absolute Acceleration-Rotation Sensing
+- Authors: Tomoya Sato, Toshiyuki Hosoya, Martin Miranda, Hiroki Matsui, Yuki Miyazawa, Mikio Kozuma
+- Categories: physics.atom-ph (primary); physics.atom-ph; quant-ph
+- Links: abs=https://arxiv.org/abs/2509.05942v2  pdf=https://arxiv.org/pdf/2509.05942v2.pdf
+
+Abstract:
+We present a theoretical proposal and simulation study of a digital closed-loop thermal atomic-beam interferometer for inertial navigation applications. The scheme synchronizes phase biasing with momentum-kick reversal through the atomic transit time, extracting four interferometric phases to suppress Raman beam path-length errors, while two-photon detuning feedback maintains a pseudo-inertial frame and eliminates cross-coupling. The interferometer enables simultaneous measurements of acceleration and rotation based on an absolute, atom-interferometric reference, with high bandwidth and a wide dynamic range. Numerical simulations verify that acceleration and angular velocity can be measured simultaneously and independently in real time without cross-coupling, demonstrating the absolute, decoupled nature of the proposed measurement scheme. We further evaluate the noise-limited performance of the sensor and obtain sensitivities of $3{\rm μm / s^2 / \sqrt{Hz}}$ (velocity random walk) and $15{\rm μdeg / \sqrt{h}}$ (angular random walk) for a ${170}^{\circ}$ $^{85}$Rb beam and an interferometer arm length of 100~mm, surpassing the performance of sensors currently used in state-of-the-art inertial navigation systems.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2509.11797v3
+- Title: Modified rational six vertex model on a rectangular lattice : new formula, homogeneous and thermodynamic limits
+- Authors: Matthieu Cornillault, Samuel Belliard
+- Categories: math-ph (primary); math-ph; cond-mat.stat-mech; quant-ph
+- Links: abs=https://arxiv.org/abs/2509.11797v3  pdf=https://arxiv.org/pdf/2509.11797v3.pdf
+
+Abstract:
+We continue the work of Belliard, Pimenta and Slavnov (2024) studying the modified rational six vertex model. We find another formula of the partition function for the inhomogeneous model, in terms of a determinant that mix the modified Izergin one and a Vandermonde one. This expression enables us to compute the partition function in the homogeneous limit for the rectangular lattice, and then to study the thermodynamic limit. It leads to a new result, we obtain the first order of free energy with boundary effects in the thermodynamic limit.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2510.05653v3
+- Title: Valley-dependent topological interface states in biased armchair nanoribbons of gapless single-layer graphene for transport applications
+- Authors: Zheng-Han Huang, Jing-Yuan Lai, Yu-Shu G. Wu
+- Categories: cond-mat.mes-hall (primary); cond-mat.mes-hall; quant-ph
+- Links: abs=https://arxiv.org/abs/2510.05653v3  pdf=https://arxiv.org/pdf/2510.05653v3.pdf
+
+Abstract:
+Valley-dependent topological physics offers a promising avenue for designing nanoscale devices based on gapless single-layer graphene. To demonstrate this potential, we investigate an electrical bias-controlled topological discontinuity in valley polarization within a two-segment armchair nanoribbon of gapless single-layer graphene. This discontinuity is created at the interface by applying opposite in-plane, transverse electrical biases to the two segments. An efficient tight-binding theoretical formulation is developed to calculate electron states in the structure. In a reference configuration, we obtain energy eigenvalues and probability distributions that feature interface-confined electron eigenstates induced by the topological discontinuity. Moreover, to elucidate the implications of interface confinement for electron transport, a modified configuration is introduced to transform the eigenstates into transport-active, quasi-localized ones. We show that such states result in Fano "anti-resonances" in transmission spectra. The resilience of these quasi-localized states and their associated Fano fingerprints is examined with respect to fluctuations. Finally, a proof-of-concept band-stop electron energy filter is presented, highlighting the potential of this confinement mechanism and, more broadly, valley-dependent topological physics in designing nanoscale devices in gapless single-layer graphene.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2512.13448v2
+- Title: Phase Space Electronic Structure Theory: From Diatomic Lambda-Doubling to Macroscopic Einstein-de Haas
+- Authors: Linqing Peng, Tian Qiu, Nadine Bradbury, Xuezhi Bian, Mansi Bhati, Robert Littlejohn, Nathanael M. Kidwell, Joseph E. Subotnik
+- Categories: physics.chem-ph (primary); physics.chem-ph; physics.atom-ph; quant-ph
+- Links: abs=https://arxiv.org/abs/2512.13448v2  pdf=https://arxiv.org/pdf/2512.13448v2.pdf
+
+Abstract:
+$Λ$-doubling of diatomic molecules is a subtle microscopic phenomenon that has long attracted the attention of experimental groups, insofar as rotation of molecular $\textit{nuclei}$ induces small energetic changes in the (degenerate) $\textit{electronic}$ state. A direct description of such a phenomenon clearly requires going beyond the Born-Oppenheimer approximation. Here we show that a phase space theory previously developed to capture electronic momentum and model vibrational circular dichroism -- and which we have postulated should also describe the Einstein-de Haas effect, a macroscopic manifestation of angular momentum conservation -- is also able to recover the $Λ$-doubling energy splitting (or $Λ$-splitting) of the NO molecule nearly quantitatively. The key observation is that, by parameterizing the electronic Hamiltonian in terms of both nuclear position ($\mathbf{X}$) and nuclear momentum ($\mathbf{P}$), a phase space method yields potential energy surfaces that explicitly include the electron-rotation coupling and correctly conserve angular momentum (which we show is essential to capture $Λ-$doubling). The data presented in this manuscript offers another small glimpse into the rich physics that one can learn from investigating phase space potential energy surfaces $E_{PS}(\mathbf{X},\mathbf{P})$ as a function of both nuclear position and momentum, all at a computational cost comparable to standard Born-Oppenheimer electronic structure calculations.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-01-27 09:48
+- arXiv: 2512.14495v2
+- Title: Multimode Jahn-Teller Effect in Negatively Charged Nitrogen-Vacancy Center in Diamond
+- Authors: Jianhua Zhang, Jun Liu, Z. Z. Zhu, K. M. Ho, V. V. Dobrovitski, C. Z. Wang
+- Categories: cond-mat.mtrl-sci (primary); cond-mat.mtrl-sci; physics.comp-ph; quant-ph
+- Links: abs=https://arxiv.org/abs/2512.14495v2  pdf=https://arxiv.org/pdf/2512.14495v2.pdf
+
+Abstract:
+We present a first-principles study of the multimode Jahn-Teller (JT) effect in the exctied $^{3}E$ state of the negatively charged nitrogen-vacancy (NV) center in diamond. Using density functional theory combined with an intrinsic distortion path (IDP) analysis, we resolve the full activation pathways of the JT distortion and quantitatively decompose the distortion into contributions from individual vibrational modes. We find that multiple vibrational modes participate cooperatively in the JT dynamics, giving rise to a shallow adiabatic potential energy surface with low barriers, consistent with thermally activated pseudorotation. The dominant JT-active modes are found to closely correspond to vibrational features observed in two-dimensional electronic spectroscopy (2DES), in agreement with recent ab initio molecular dynamics simulations. Our results establish a microscopic, mode-resolved picture of vibronic coupling in the excited-state NV center and provide new insight into dephasing, relaxation, and optically driven dynamics relevant to solid-state quantum technologies.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+

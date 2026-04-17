@@ -1,6 +1,8 @@
 import json
 import os
+import random
 import re
+import time
 from dataclasses import asdict, dataclass
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -23,6 +25,56 @@ TZ = ZoneInfo("Asia/Tokyo")
 # - https://arxiv.org/abs/2501.01234
 # - https://arxiv.org/abs/2501.01234v2
 ARXIV_ID_RE = re.compile(r"/abs/(\d{4}\.\d{4,5})(v\d+)?$")
+
+
+def http_get_with_retry(
+    url: str,
+    *,
+    params: Optional[Dict[str, str]] = None,
+    timeout: Tuple[int, int] = (10, 60),
+    max_tries: int = 6,
+) -> requests.Response:
+    """
+    GET with retry for transient failures (timeouts, 429, 5xx).
+
+    Respects Retry-After when present; otherwise uses exponential backoff
+    with a small jitter.
+    """
+    last_exc: Exception | None = None
+    for attempt in range(1, max_tries + 1):
+        try:
+            response = requests.get(url, params=params, timeout=timeout)
+            if response.status_code in (429, 500, 502, 503, 504):
+                retry_after = response.headers.get("Retry-After")
+                wait: float | None = None
+                if retry_after is not None:
+                    try:
+                        wait = float(retry_after)
+                    except ValueError:
+                        wait = None
+                if wait is None:
+                    wait = min(60.0, 2**attempt) + random.uniform(0, 0.5)
+                if attempt == max_tries:
+                    response.raise_for_status()
+                time.sleep(wait)
+                continue
+
+            response.raise_for_status()
+            return response
+        except (
+            requests.exceptions.ReadTimeout,
+            requests.exceptions.ConnectTimeout,
+            requests.exceptions.ConnectionError,
+        ) as exc:
+            last_exc = exc
+            if attempt == max_tries:
+                raise
+            wait = min(60.0, 2**attempt) + random.uniform(0, 0.5)
+            time.sleep(wait)
+
+    if last_exc:
+        raise last_exc
+    raise RuntimeError("http_get_with_retry failed unexpectedly")
 
 
 @dataclass
@@ -102,8 +154,8 @@ def fetch_arxiv_api_by_id_list(arxiv_ids: List[str]) -> List[Paper]:
         "id_list": ",".join(arxiv_ids),
         "max_results": str(len(arxiv_ids)),
     }
-    r = requests.get(ARXIV_API_URL, params=params, timeout=30)
-    r.raise_for_status()
+    # Be gentle: retry on 429/5xx/timeouts.
+    r = http_get_with_retry(ARXIV_API_URL, params=params)
 
     # API returns Atom; feedparser can parse it
     api_feed = feedparser.parse(r.text)
@@ -250,9 +302,12 @@ def main() -> None:
 
     # 3) APIで確定（id_listは長くなりすぎないよう分割）
     all_new_papers: List[Paper] = []
-    for batch in chunk(new_ids, 40):
+    batches = chunk(new_ids, 40)
+    for i, batch in enumerate(batches):
         papers = fetch_arxiv_api_by_id_list(batch)
         all_new_papers.extend(papers)
+        if i != len(batches) - 1:
+            time.sleep(3.2)
 
     if not all_new_papers:
         print("No papers parsed from arXiv API response.")

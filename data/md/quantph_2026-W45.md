@@ -2174,3 +2174,37 @@ Notes:
 
 ---
 
+- Date (JST ingest): 2026-11-04 15:47
+- arXiv: 2004.10173v2
+- Title: Everlasting secure key agreement from a quantum computational hybrid security model
+- Authors: Nilesh Vyas, Romain Alleaume
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2004.10173v2  pdf=https://arxiv.org/pdf/2004.10173v2.pdf
+
+Abstract:
+We introduce the Quantum Computational Timelock (QCT) model, combining time-lock encryption with a quantitative noisy-quantum-storage assumption. Time-lock encryption gives Bob immediate access to the encoding seed and gives Eve the same final information as access to that seed only after a protected interval. Eve may then process her retained information without computational restriction. We state this delayed-access encryption assumption explicitly and construct MUB-QCT from a complete set of mutually unbiased bases in dimension $d$ and an affine pair-wise independent permutation family.   For single-copy encoding, every seed-independent immediate measurement has trace-distance advantage at most $1/(2\sqrt{d+1})$ and mutual information at most $1/(d+1)$. Effective residual storage at diamond distance at most $δ$ from replacement adds at most $δ$ to the individual-attack distinguishing bound. Under i.i.d. individual attacks and entropy-preserving acceptance, we obtain an asymptotic key-rate bound and formulate final-key secrecy in composable trace distance.   For $m$ independently randomized signals sharing one bit and seed, the optimal leakage under non-adaptive product measurements is $\min\{1,m/(d+1)\}$, allowing a linear-in-$d$ detection enhancement in that attack model. We also construct a seed-independent joint measurement that recovers the bit after disclosure with error at most $\varepsilon$ from $O(\log d+\log(1/\varepsilon))$ signals, retaining only classical information after measurement. This gives a quantitative separation between product and joint measurements. Bob uses two logical detection outcomes independently of $d$.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
+- Date (JST ingest): 2026-11-04 15:47
+- arXiv: 2308.10996v3
+- Title: Perturbation-based Non-perturbative Method
+- Authors: Chang Liu, Wen-Du Li, Wu-Sheng Dai
+- Categories: quant-ph (primary); quant-ph
+- Links: abs=https://arxiv.org/abs/2308.10996v3  pdf=https://arxiv.org/pdf/2308.10996v3.pdf
+
+Abstract:
+This paper presents a nonperturbative method for solving eigenproblems. This method applies to almost all potentials and provides nonperturbative approximations for any energy level. The method converts an eigenproblem into a perturbation problem, obtains perturbation solutions through standard perturbation theory, and then analytically continues the perturbative solution into a nonperturbative solution. Concretely, we follow three main steps: (1) Introduce an auxiliary potential that can be solved exactly and treat the potential to be solved as a perturbation on this auxiliary system. (2) Use perturbation theory to obtain an approximate polynomial of the eigenproblem. (3) Use a rational approximation to analytically continue this approximate polynomial into the nonperturbative region.
+
+Notes:
+- Keywords (auto):
+- Why it matters (auto):
+- Related cluster (auto):
+
+---
+
